@@ -66,7 +66,6 @@ const extraPink300 = "#da2185";
 const extraFrog100 = "#b4efba";
 const extraFrog300 = "#00ac11";
 const extraFrog200 = "#69ff78";
-const token1 = "#ffffff";
 const primary100 = "#f1effe";
 const statesInformative100 = "#f1effe";
 const statesInformative200 = "#bdb7ff";
@@ -92,6 +91,7 @@ const neutral800 = "#6e6e71";
 const neutral900 = "#57575a";
 const neutral1000 = "#404043";
 const neutralBlack = "#141416";
+const primaryButtonBgcolor = primary600;
 
 export const Colors = {
     primary200,
@@ -162,7 +162,6 @@ export const Colors = {
     extraFrog100,
     extraFrog300,
     extraFrog200,
-    token1,
     primary100,
     statesInformative100,
     statesInformative200,
@@ -188,4 +187,5 @@ export const Colors = {
     neutral900,
     neutral1000,
     neutralBlack,
+    primaryButtonBgcolor,
 }
