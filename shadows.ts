@@ -14,9 +14,9 @@ const shadowCard = {
                      css: "0px"
                     },
            radius: {
-                    measure: 1,
+                    measure: 6,
                     unit: "Pixels",
-                    css: "1px"
+                    css: "6px"
                    },
            spread: {
                     measure: 0,
@@ -37,9 +37,9 @@ const shadowCard2 = {
                      css: "0px"
                     },
            radius: {
-                    measure: 6,
+                    measure: 1,
                     unit: "Pixels",
-                    css: "6px"
+                    css: "1px"
                    },
            spread: {
                     measure: 0,
@@ -60,9 +60,9 @@ const shadowModal = {
                      css: "0px"
                     },
            radius: {
-                    measure: 1,
+                    measure: 32,
                     unit: "Pixels",
-                    css: "1px"
+                    css: "32px"
                    },
            spread: {
                     measure: 0,
@@ -72,29 +72,6 @@ const shadowModal = {
            color: "#0000000a",
          };
 const shadowModal2 = {  
-           offsetX: {
-                     measure: 0,
-                     unit: "Pixels",
-                     css: "0px"
-                    },
-           offsetY: {
-                     measure: 4,
-                     unit: "Pixels",
-                     css: "4px"
-                    },
-           radius: {
-                    measure: 8,
-                    unit: "Pixels",
-                    css: "8px"
-                   },
-           spread: {
-                    measure: 0,
-                    unit: "Pixels",
-                    css: "0px"
-                   },
-           color: "#0000000a",
-         };
-const shadowModal3 = {  
            offsetX: {
                      measure: 0,
                      unit: "Pixels",
@@ -117,6 +94,29 @@ const shadowModal3 = {
                    },
            color: "#0000000a",
          };
+const shadowModal3 = {  
+           offsetX: {
+                     measure: 0,
+                     unit: "Pixels",
+                     css: "0px"
+                    },
+           offsetY: {
+                     measure: 4,
+                     unit: "Pixels",
+                     css: "4px"
+                    },
+           radius: {
+                    measure: 8,
+                    unit: "Pixels",
+                    css: "8px"
+                   },
+           spread: {
+                    measure: 0,
+                    unit: "Pixels",
+                    css: "0px"
+                   },
+           color: "#0000000a",
+         };
 const shadowModal4 = {  
            offsetX: {
                      measure: 0,
@@ -129,9 +129,9 @@ const shadowModal4 = {
                      css: "0px"
                     },
            radius: {
-                    measure: 32,
+                    measure: 1,
                     unit: "Pixels",
-                    css: "32px"
+                    css: "1px"
                    },
            spread: {
                     measure: 0,
