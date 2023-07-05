@@ -1,35 +1,37 @@
+const primary100 = "#f1effe";
 const primary200 = "#bdb7ff";
 const primary300 = "#948aff";
 const primary400 = "#6a5cff";
 const primary500 = "#402eff";
 const primary600 = "#1500f7";
-const primary700 = "#1200ce";
+const primary700 = "#0f00b8";
 const primary800 = "#0e00a5";
 const primary900 = "#0b007d";
 const primary1000 = "#070054";
-const informative100 = "#f1effe";
-const informative200 = "#bdb7ff";
-const informative300 = "#1500f7";
-const success100 = "#e5fff8";
-const success200 = "#9ee4ce";
-const success300 = "#37c99b";
-const warning100 = "#ffe8e0";
-const warning200 = "#ffc5b1";
-const warning300 = "#fc6533";
-const danger100 = "#fceaea";
-const danger200 = "#f4b9b9";
-const danger300 = "#da1414";
-const _100 = "#f9f9f9";
-const _200 = "#f5f5f5";
-const _300 = "#e2e2e2";
-const _400 = "#cbcbcb";
-const _500 = "#b5b5b5";
-const _600 = "#9e9e9e";
-const _700 = "#878787";
-const _800 = "#6e6e71";
-const _900 = "#57575a";
-const _1000 = "#404043";
-const black = "#141416";
+const statesInformative100 = "#f1effe";
+const statesInformative200 = "#bdb7ff";
+const statesInformative300 = "#1500f7";
+const statesSuccess100 = "#e5fff8";
+const statesSuccess200 = "#9ee4ce";
+const statesSuccess300 = "#37c99b";
+const statesWarning100 = "#ffe8e0";
+const statesWarning200 = "#ffc5b1";
+const statesWarning300 = "#fc6533";
+const statesDanger100 = "#fceaea";
+const statesDanger200 = "#f4b9b9";
+const statesDanger300 = "#da1414";
+const neutral100 = "#f9f9f9";
+const neutral200 = "#f5f5f5";
+const neutral300 = "#e2e2e2";
+const neutral400 = "#cbcbcb";
+const neutral500 = "#b5b5b5";
+const neutral600 = "#9e9e9e";
+const neutral700 = "#878787";
+const neutral800 = "#6e6e71";
+const neutral900 = "#57575a";
+const neutral1000 = "#404043";
+const neutralWhite = "#ffffff";
+const neutralBlack = "#141416";
 const secondaryAgrume100 = "#fffbfa";
 const secondaryAgrume200 = "#fff3ef";
 const secondaryAgrume300 = "#ffeae3";
@@ -64,36 +66,18 @@ const extraPink100 = "#ffd7ec";
 const extraPink200 = "#ff7dc3";
 const extraPink300 = "#da2185";
 const extraFrog100 = "#b4efba";
-const extraFrog300 = "#00ac11";
 const extraFrog200 = "#69ff78";
-const primary100 = "#f1effe";
-const statesInformative100 = "#f1effe";
-const statesInformative200 = "#bdb7ff";
-const statesInformative300 = "#1500f7";
-const statesSuccess100 = "#e5fff8";
-const statesSuccess200 = "#9ee4ce";
-const statesSuccess300 = "#37c99b";
-const statesWarning100 = "#ffe8e0";
-const statesWarning200 = "#ffc5b1";
-const statesWarning300 = "#fc6533";
-const statesDanger100 = "#fceaea";
-const statesDanger200 = "#f4b9b9";
-const statesDanger300 = "#da1414";
-const neutralWhite = "#ffffff";
-const neutral100 = "#f9f9f9";
-const neutral200 = "#f5f5f5";
-const neutral300 = "#e2e2e2";
-const neutral400 = "#cbcbcb";
-const neutral500 = "#b5b5b5";
-const neutral600 = "#9e9e9e";
-const neutral700 = "#878787";
-const neutral800 = "#6e6e71";
-const neutral900 = "#57575a";
-const neutral1000 = "#404043";
-const neutralBlack = "#141416";
-const test = "#ffffff";
+const extraFrog300 = "#00ac11";
+const brandColor = extraPurple300;
+const componentButtonPrimaryBrand = brandColor;
+const componentButtonPrimaryHovered = primary800;
+const componentButtonPrimaryDisabled = primary100;
+const componentButtonErrorDefault = statesDanger300;
+const componentButtonErrorHovered = statesDanger200;
+const componentButtonErrorDisabled = statesDanger100;
 
 export const Colors = {
+    primary100,
     primary200,
     primary300,
     primary400,
@@ -103,29 +87,30 @@ export const Colors = {
     primary800,
     primary900,
     primary1000,
-    informative100,
-    informative200,
-    informative300,
-    success100,
-    success200,
-    success300,
-    warning100,
-    warning200,
-    warning300,
-    danger100,
-    danger200,
-    danger300,
-    _100,
-    _200,
-    _300,
-    _400,
-    _500,
-    _600,
-    _700,
-    _800,
-    _900,
-    _1000,
-    black,
+    statesInformative100,
+    statesInformative200,
+    statesInformative300,
+    statesSuccess100,
+    statesSuccess200,
+    statesSuccess300,
+    statesWarning100,
+    statesWarning200,
+    statesWarning300,
+    statesDanger100,
+    statesDanger200,
+    statesDanger300,
+    neutral100,
+    neutral200,
+    neutral300,
+    neutral400,
+    neutral500,
+    neutral600,
+    neutral700,
+    neutral800,
+    neutral900,
+    neutral1000,
+    neutralWhite,
+    neutralBlack,
     secondaryAgrume100,
     secondaryAgrume200,
     secondaryAgrume300,
@@ -160,32 +145,13 @@ export const Colors = {
     extraPink200,
     extraPink300,
     extraFrog100,
-    extraFrog300,
     extraFrog200,
-    primary100,
-    statesInformative100,
-    statesInformative200,
-    statesInformative300,
-    statesSuccess100,
-    statesSuccess200,
-    statesSuccess300,
-    statesWarning100,
-    statesWarning200,
-    statesWarning300,
-    statesDanger100,
-    statesDanger200,
-    statesDanger300,
-    neutralWhite,
-    neutral100,
-    neutral200,
-    neutral300,
-    neutral400,
-    neutral500,
-    neutral600,
-    neutral700,
-    neutral800,
-    neutral900,
-    neutral1000,
-    neutralBlack,
-    test,
+    extraFrog300,
+    brandColor,
+    componentButtonPrimaryBrand,
+    componentButtonPrimaryHovered,
+    componentButtonPrimaryDisabled,
+    componentButtonErrorDefault,
+    componentButtonErrorHovered,
+    componentButtonErrorDisabled,
 }
