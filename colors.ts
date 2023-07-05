@@ -91,7 +91,7 @@ const neutral800 = "#6e6e71";
 const neutral900 = "#57575a";
 const neutral1000 = "#404043";
 const neutralBlack = "#141416";
-const primaryButtonBgcolor = primary600;
+const test = "#ffffff";
 
 export const Colors = {
     primary200,
@@ -187,5 +187,5 @@ export const Colors = {
     neutral900,
     neutral1000,
     neutralBlack,
-    primaryButtonBgcolor,
+    test,
 }
