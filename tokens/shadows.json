@@ -1,0 +1,134 @@
+{
+  "shadow": {
+    "shadow-card": {
+      "value": {
+        "color": {
+          "type": "color",
+          "value": "#0000000a"
+        },
+        "x": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "y": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "radius": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 6
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "spread": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "opacity": {
+          "type": "size",
+          "value": 1
+        }
+      },
+      "type": "shadow"
+    },
+    "shadow-modal": {
+      "value": {
+        "color": {
+          "type": "color",
+          "value": "#0000000a"
+        },
+        "x": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "y": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "radius": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 32
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "spread": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "opacity": {
+          "type": "size",
+          "value": 1
+        }
+      },
+      "type": "shadow"
+    }
+  }
+}
