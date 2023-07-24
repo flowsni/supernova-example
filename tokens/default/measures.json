@@ -1,3 +1,405 @@
 {
-  "measure": {}
+  "measure": {
+    "dimension": {
+      "dimension": {
+        "scale": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 2
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "xs": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 4
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "sm": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 8
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "md": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 16
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "lg": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 32
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "xl": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 64
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        }
+      },
+      "card": {
+        "padding": {
+          "value": "{measure.dimension.dimension.md.value}",
+          "type": "measure"
+        }
+      }
+    },
+    "opacity": {
+      "opacity": {
+        "low": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 10
+            },
+            "unit": {
+              "type": "string",
+              "value": "percent"
+            }
+          },
+          "type": "measure"
+        },
+        "md": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 50
+            },
+            "unit": {
+              "type": "string",
+              "value": "percent"
+            }
+          },
+          "type": "measure"
+        },
+        "high": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 90
+            },
+            "unit": {
+              "type": "string",
+              "value": "percent"
+            }
+          },
+          "type": "measure"
+        }
+      }
+    },
+    "line-height": {
+      "lineheights": {
+        "heading": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 110
+            },
+            "unit": {
+              "type": "string",
+              "value": "percent"
+            }
+          },
+          "type": "measure"
+        },
+        "body": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 140
+            },
+            "unit": {
+              "type": "string",
+              "value": "percent"
+            }
+          },
+          "type": "measure"
+        }
+      }
+    },
+    "letter-spacing": {
+      "letterspacing": {
+        "default": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "increased": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 150
+            },
+            "unit": {
+              "type": "string",
+              "value": "percent"
+            }
+          },
+          "type": "measure"
+        },
+        "decreased": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": -5
+            },
+            "unit": {
+              "type": "string",
+              "value": "percent"
+            }
+          },
+          "type": "measure"
+        }
+      }
+    },
+    "paragraph-spacing": {
+      "paragraphspacing": {
+        "h1": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 32
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "h2": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 26
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        }
+      }
+    },
+    "font-size": {
+      "fontsizes": {
+        "body": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 16
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "h6": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 16
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "sm": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 13.6
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "xs": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 10.4
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "h5": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 20
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "h4": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 25
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "h3": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 31.25
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "h2": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 39.063
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "h1": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 48.829
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        }
+      }
+    },
+    "spacing": {
+      "spacing": {
+        "multi-value": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 864
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure",
+          "comment": "You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens"
+        },
+        "xs": {
+          "value": "{measure.dimension.dimension.xs.value}",
+          "type": "measure"
+        },
+        "sm": {
+          "value": "{measure.dimension.dimension.sm.value}",
+          "type": "measure"
+        },
+        "md": {
+          "value": "{measure.dimension.dimension.md.value}",
+          "type": "measure"
+        },
+        "lg": {
+          "value": "{measure.dimension.dimension.lg.value}",
+          "type": "measure"
+        },
+        "xl": {
+          "value": "{measure.dimension.dimension.xl.value}",
+          "type": "measure"
+        }
+      }
+    },
+    "border-width": {
+      "button": {
+        "borderwidth": {
+          "value": "{measure.dimension.dimension.sm.value}",
+          "type": "measure"
+        }
+      }
+    }
+  }
 }

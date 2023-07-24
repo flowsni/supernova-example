@@ -1,33 +1,208 @@
 {
   "typography": {
-    "headings": {
-      "h1-24px": {
+    "typography": {
+      "h1": {
+        "bold": {
+          "value": {
+            "font": {
+              "type": "font",
+              "value": {
+                "family": {
+                  "type": "string",
+                  "value": "Inter"
+                },
+                "subfamily": {
+                  "type": "string",
+                  "value": "Bold"
+                }
+              }
+            },
+            "fontSize": {
+              "type": "measure",
+              "value": "{measure.font-size.fontsizes.h1.value}"
+            },
+            "textDecoration": "None",
+            "textCase": "Original",
+            "letterSpacing": {
+              "type": "measure",
+              "value": "{measure.letter-spacing.letterspacing.decreased.value}"
+            },
+            "paragraphIndent": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "lineHeight": {
+              "type": "measure",
+              "value": "{measure.line-height.lineheights.heading.value}"
+            }
+          },
+          "type": "typography"
+        },
+        "regular": {
+          "value": {
+            "font": {
+              "type": "font",
+              "value": {
+                "family": {
+                  "type": "string",
+                  "value": "Inter"
+                },
+                "subfamily": {
+                  "type": "string",
+                  "value": "Regular"
+                }
+              }
+            },
+            "fontSize": {
+              "type": "measure",
+              "value": "{measure.font-size.fontsizes.h1.value}"
+            },
+            "textDecoration": "None",
+            "textCase": "Original",
+            "letterSpacing": {
+              "type": "measure",
+              "value": "{measure.letter-spacing.letterspacing.decreased.value}"
+            },
+            "paragraphIndent": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "lineHeight": {
+              "type": "measure",
+              "value": "{measure.line-height.lineheights.heading.value}"
+            }
+          },
+          "type": "typography"
+        }
+      },
+      "h2": {
+        "bold": {
+          "value": {
+            "font": {
+              "type": "font",
+              "value": {
+                "family": {
+                  "type": "string",
+                  "value": "Inter"
+                },
+                "subfamily": {
+                  "type": "string",
+                  "value": "Bold"
+                }
+              }
+            },
+            "fontSize": {
+              "type": "measure",
+              "value": "{measure.font-size.fontsizes.h2.value}"
+            },
+            "textDecoration": "None",
+            "textCase": "Original",
+            "letterSpacing": {
+              "type": "measure",
+              "value": "{measure.letter-spacing.letterspacing.decreased.value}"
+            },
+            "paragraphIndent": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "lineHeight": {
+              "type": "measure",
+              "value": "{measure.line-height.lineheights.heading.value}"
+            }
+          },
+          "type": "typography"
+        },
+        "regular": {
+          "value": {
+            "font": {
+              "type": "font",
+              "value": {
+                "family": {
+                  "type": "string",
+                  "value": "Inter"
+                },
+                "subfamily": {
+                  "type": "string",
+                  "value": "Regular"
+                }
+              }
+            },
+            "fontSize": {
+              "type": "measure",
+              "value": "{measure.font-size.fontsizes.h2.value}"
+            },
+            "textDecoration": "None",
+            "textCase": "Original",
+            "letterSpacing": {
+              "type": "measure",
+              "value": "{measure.letter-spacing.letterspacing.decreased.value}"
+            },
+            "paragraphIndent": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "lineHeight": {
+              "type": "measure",
+              "value": "{measure.line-height.lineheights.heading.value}"
+            }
+          },
+          "type": "typography"
+        }
+      },
+      "body": {
         "value": {
           "font": {
             "type": "font",
             "value": {
               "family": {
                 "type": "string",
-                "value": "Heebo"
+                "value": "Roboto"
               },
               "subfamily": {
                 "type": "string",
-                "value": "Bold"
+                "value": "Regular"
               }
             }
           },
           "fontSize": {
             "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 24
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
+            "value": "{measure.font-size.fontsizes.body.value}"
           },
           "textDecoration": "None",
           "textCase": "Original",
@@ -40,7 +215,7 @@
               },
               "unit": {
                 "type": "string",
-                "value": "percent"
+                "value": "pixels"
               }
             }
           },
@@ -56,717 +231,13 @@
                 "value": "pixels"
               }
             }
+          },
+          "lineHeight": {
+            "type": "measure",
+            "value": "{measure.line-height.lineheights.heading.value}"
           }
         },
         "type": "typography"
-      }
-    },
-    "body": {
-      "l-18px": {
-        "regular": {
-          "value": {
-            "font": {
-              "type": "font",
-              "value": {
-                "family": {
-                  "type": "string",
-                  "value": "Heebo"
-                },
-                "subfamily": {
-                  "type": "string",
-                  "value": "Regular"
-                }
-              }
-            },
-            "fontSize": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 18
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "textDecoration": "None",
-            "textCase": "Original",
-            "letterSpacing": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "percent"
-                }
-              }
-            },
-            "paragraphIndent": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "lineHeight": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 26
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            }
-          },
-          "type": "typography"
-        },
-        "bold": {
-          "value": {
-            "font": {
-              "type": "font",
-              "value": {
-                "family": {
-                  "type": "string",
-                  "value": "Heebo"
-                },
-                "subfamily": {
-                  "type": "string",
-                  "value": "Bold"
-                }
-              }
-            },
-            "fontSize": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 18
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "textDecoration": "None",
-            "textCase": "Original",
-            "letterSpacing": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "percent"
-                }
-              }
-            },
-            "paragraphIndent": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "lineHeight": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 26
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            }
-          },
-          "type": "typography"
-        }
-      },
-      "m-16px": {
-        "regular": {
-          "value": {
-            "font": {
-              "type": "font",
-              "value": {
-                "family": {
-                  "type": "string",
-                  "value": "Heebo"
-                },
-                "subfamily": {
-                  "type": "string",
-                  "value": "Regular"
-                }
-              }
-            },
-            "fontSize": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 16
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "textDecoration": "None",
-            "textCase": "Original",
-            "letterSpacing": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "percent"
-                }
-              }
-            },
-            "paragraphIndent": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "lineHeight": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 24
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            }
-          },
-          "type": "typography"
-        },
-        "bold": {
-          "value": {
-            "font": {
-              "type": "font",
-              "value": {
-                "family": {
-                  "type": "string",
-                  "value": "Heebo"
-                },
-                "subfamily": {
-                  "type": "string",
-                  "value": "Bold"
-                }
-              }
-            },
-            "fontSize": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 16
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "textDecoration": "None",
-            "textCase": "Original",
-            "letterSpacing": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "percent"
-                }
-              }
-            },
-            "paragraphIndent": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "lineHeight": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 24
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            }
-          },
-          "type": "typography"
-        }
-      },
-      "s-14px": {
-        "regular": {
-          "value": {
-            "font": {
-              "type": "font",
-              "value": {
-                "family": {
-                  "type": "string",
-                  "value": "Heebo"
-                },
-                "subfamily": {
-                  "type": "string",
-                  "value": "Regular"
-                }
-              }
-            },
-            "fontSize": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 14
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "textDecoration": "None",
-            "textCase": "Original",
-            "letterSpacing": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "percent"
-                }
-              }
-            },
-            "paragraphIndent": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "lineHeight": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 22
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            }
-          },
-          "type": "typography"
-        },
-        "bold": {
-          "value": {
-            "font": {
-              "type": "font",
-              "value": {
-                "family": {
-                  "type": "string",
-                  "value": "Heebo"
-                },
-                "subfamily": {
-                  "type": "string",
-                  "value": "Bold"
-                }
-              }
-            },
-            "fontSize": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 14
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "textDecoration": "None",
-            "textCase": "Original",
-            "letterSpacing": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "percent"
-                }
-              }
-            },
-            "paragraphIndent": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "lineHeight": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 22
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            }
-          },
-          "type": "typography"
-        }
-      },
-      "xs-12px": {
-        "regular": {
-          "value": {
-            "font": {
-              "type": "font",
-              "value": {
-                "family": {
-                  "type": "string",
-                  "value": "Heebo"
-                },
-                "subfamily": {
-                  "type": "string",
-                  "value": "Regular"
-                }
-              }
-            },
-            "fontSize": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 12
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "textDecoration": "None",
-            "textCase": "Original",
-            "letterSpacing": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "percent"
-                }
-              }
-            },
-            "paragraphIndent": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "lineHeight": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 20
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            }
-          },
-          "type": "typography"
-        },
-        "bold": {
-          "value": {
-            "font": {
-              "type": "font",
-              "value": {
-                "family": {
-                  "type": "string",
-                  "value": "Heebo"
-                },
-                "subfamily": {
-                  "type": "string",
-                  "value": "Bold"
-                }
-              }
-            },
-            "fontSize": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 12
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "textDecoration": "None",
-            "textCase": "Original",
-            "letterSpacing": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "percent"
-                }
-              }
-            },
-            "paragraphIndent": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "lineHeight": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 20
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            }
-          },
-          "type": "typography"
-        }
-      }
-    },
-    "ui": {
-      "tableheader-11px": {
-        "regular": {
-          "value": {
-            "font": {
-              "type": "font",
-              "value": {
-                "family": {
-                  "type": "string",
-                  "value": "Heebo"
-                },
-                "subfamily": {
-                  "type": "string",
-                  "value": "Regular"
-                }
-              }
-            },
-            "fontSize": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 11
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "textDecoration": "None",
-            "textCase": "Upper",
-            "letterSpacing": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 8
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "percent"
-                }
-              }
-            },
-            "paragraphIndent": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            }
-          },
-          "type": "typography"
-        },
-        "bold": {
-          "value": {
-            "font": {
-              "type": "font",
-              "value": {
-                "family": {
-                  "type": "string",
-                  "value": "Heebo"
-                },
-                "subfamily": {
-                  "type": "string",
-                  "value": "Bold"
-                }
-              }
-            },
-            "fontSize": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 11
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "textDecoration": "None",
-            "textCase": "Upper",
-            "letterSpacing": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 8
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "percent"
-                }
-              }
-            },
-            "paragraphIndent": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            }
-          },
-          "type": "typography"
-        }
       }
     }
   }
