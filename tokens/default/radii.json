@@ -1,0 +1,68 @@
+{
+  "radius": {
+    "border-radius": {
+      "radius-default": {
+        "value": {
+          "radius": {
+            "type": "measure",
+            "value": {
+              "measure": {
+                "type": "size",
+                "value": 4
+              },
+              "unit": {
+                "type": "string",
+                "value": "pixels"
+              }
+            }
+          }
+        },
+        "type": "radius"
+      },
+      "radius-md": {
+        "value": {
+          "radius": {
+            "type": "measure",
+            "value": {
+              "measure": {
+                "type": "size",
+                "value": 8
+              },
+              "unit": {
+                "type": "string",
+                "value": "pixels"
+              }
+            }
+          }
+        },
+        "type": "radius"
+      },
+      "radius-lg": {
+        "value": {
+          "radius": {
+            "type": "measure",
+            "value": {
+              "measure": {
+                "type": "size",
+                "value": 12
+              },
+              "unit": {
+                "type": "string",
+                "value": "pixels"
+              }
+            }
+          }
+        },
+        "type": "radius"
+      },
+      "button": {
+        "value": "{radius.border-radius.radius-default.value}",
+        "type": "radius"
+      },
+      "card": {
+        "value": "{radius.border-radius.radius-md.value}",
+        "type": "radius"
+      }
+    }
+  }
+}
