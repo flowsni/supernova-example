@@ -1,5 +1,48 @@
 {
   "measure": {
+    "opacity": {
+      "opacity": {
+        "low": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 10
+            },
+            "unit": {
+              "type": "string",
+              "value": "percent"
+            }
+          },
+          "type": "measure"
+        },
+        "md": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 50
+            },
+            "unit": {
+              "type": "string",
+              "value": "percent"
+            }
+          },
+          "type": "measure"
+        },
+        "high": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 90
+            },
+            "unit": {
+              "type": "string",
+              "value": "percent"
+            }
+          },
+          "type": "measure"
+        }
+      }
+    },
     "dimension": {
       "dimension": {
         "scale": {
@@ -72,158 +115,6 @@
             "measure": {
               "type": "size",
               "value": 64
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          },
-          "type": "measure"
-        }
-      },
-      "card": {
-        "padding": {
-          "value": "{measure.dimension.dimension.md.value}",
-          "type": "measure"
-        }
-      }
-    },
-    "opacity": {
-      "opacity": {
-        "low": {
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 10
-            },
-            "unit": {
-              "type": "string",
-              "value": "percent"
-            }
-          },
-          "type": "measure"
-        },
-        "md": {
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 50
-            },
-            "unit": {
-              "type": "string",
-              "value": "percent"
-            }
-          },
-          "type": "measure"
-        },
-        "high": {
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 90
-            },
-            "unit": {
-              "type": "string",
-              "value": "percent"
-            }
-          },
-          "type": "measure"
-        }
-      }
-    },
-    "line-height": {
-      "lineheights": {
-        "heading": {
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 110
-            },
-            "unit": {
-              "type": "string",
-              "value": "percent"
-            }
-          },
-          "type": "measure"
-        },
-        "body": {
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 140
-            },
-            "unit": {
-              "type": "string",
-              "value": "percent"
-            }
-          },
-          "type": "measure"
-        }
-      }
-    },
-    "letter-spacing": {
-      "letterspacing": {
-        "default": {
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          },
-          "type": "measure"
-        },
-        "increased": {
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 150
-            },
-            "unit": {
-              "type": "string",
-              "value": "percent"
-            }
-          },
-          "type": "measure"
-        },
-        "decreased": {
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": -5
-            },
-            "unit": {
-              "type": "string",
-              "value": "percent"
-            }
-          },
-          "type": "measure"
-        }
-      }
-    },
-    "paragraph-spacing": {
-      "paragraphspacing": {
-        "h1": {
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 32
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          },
-          "type": "measure"
-        },
-        "h2": {
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 26
             },
             "unit": {
               "type": "string",
@@ -355,6 +246,109 @@
         }
       }
     },
+    "line-height": {
+      "lineheights": {
+        "heading": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 110
+            },
+            "unit": {
+              "type": "string",
+              "value": "percent"
+            }
+          },
+          "type": "measure"
+        },
+        "body": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 140
+            },
+            "unit": {
+              "type": "string",
+              "value": "percent"
+            }
+          },
+          "type": "measure"
+        }
+      }
+    },
+    "letter-spacing": {
+      "letterspacing": {
+        "default": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "increased": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 150
+            },
+            "unit": {
+              "type": "string",
+              "value": "percent"
+            }
+          },
+          "type": "measure"
+        },
+        "decreased": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": -5
+            },
+            "unit": {
+              "type": "string",
+              "value": "percent"
+            }
+          },
+          "type": "measure"
+        }
+      }
+    },
+    "paragraph-spacing": {
+      "paragraphspacing": {
+        "h1": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 32
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        },
+        "h2": {
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 25
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          },
+          "type": "measure"
+        }
+      }
+    },
     "spacing": {
       "spacing": {
         "multi-value": {
@@ -389,14 +383,6 @@
         },
         "xl": {
           "value": "{measure.dimension.dimension.xl.value}",
-          "type": "measure"
-        }
-      }
-    },
-    "border-width": {
-      "button": {
-        "borderwidth": {
-          "value": "{measure.dimension.dimension.sm.value}",
           "type": "measure"
         }
       }
