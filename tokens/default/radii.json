@@ -1,0 +1,93 @@
+{
+  "radius": {
+    "border-radius": {
+      "borderradius": {
+        "sm": {
+          "value": {
+            "radius": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 4
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            }
+          },
+          "type": "radius"
+        },
+        "lg": {
+          "value": {
+            "radius": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 8
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            }
+          },
+          "type": "radius"
+        },
+        "xl": {
+          "value": {
+            "radius": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 16
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            }
+          },
+          "type": "radius"
+        },
+        "multi-value": {
+          "value": {
+            "radius": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            }
+          },
+          "type": "radius",
+          "comment": "You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values"
+        }
+      },
+      "button": {
+        "borderradius": {
+          "value": "{radius.border-radius.borderradius.lg.value}",
+          "type": "radius"
+        }
+      },
+      "card": {
+        "borderradius": {
+          "value": "{radius.border-radius.borderradius.lg.value}",
+          "type": "radius"
+        }
+      }
+    }
+  }
+}
