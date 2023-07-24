@@ -68,13 +68,40 @@ const extraPink300 = "#da2185";
 const extraFrog100 = "#b4efba";
 const extraFrog200 = "#69ff78";
 const extraFrog300 = "#00ac11";
-const brandColor = extraPink300;
-const componentButtonPrimaryBrand = brandColor;
-const componentButtonPrimaryHovered = primary800;
-const componentButtonPrimaryDisabled = primary100;
-const componentButtonErrorDefault = statesDanger300;
-const componentButtonErrorHovered = statesDanger200;
-const componentButtonErrorDisabled = statesDanger100;
+const textDisabled = "#00000000";
+const componentButtonBackgroundSecondaryDefault = "#000000";
+const textNeutralStrong = neutralBlack;
+const textNeutralStandard = neutral800;
+const textNeutralWeak = neutral500;
+const textBrandStandard = primary600;
+const textDangerStandard = statesDanger300;
+const textDangerWeak = statesDanger200;
+const textInverseStrong = neutralWhite;
+const textInverseStandard = neutral100;
+const componentButtonBackgroundSecondaryHover = neutralWhite;
+const componentButtonBackgroundSecondaryDisabled = neutralWhite;
+const backgroundDangerStandard = statesDanger300;
+const componentButtonBackgroundErrorDefault = backgroundDangerStandard;
+const componentButtonBackgroundErrorDisabled = statesDanger100;
+const backgroundBrandStandard = primary600;
+const componentButtonBackgroundPrimaryDefault = backgroundBrandStandard;
+const componentButtonBackgroundPrimaryHover = primary800;
+const backgroundBrandWeak = primary100;
+const componentButtonBackgroundPrimaryDisabled = backgroundBrandWeak;
+const borderNeutralStandard = neutral400;
+const componentButtonBorderSecondaryDefault = borderNeutralStandard;
+const borderNeutralStrong = neutral600;
+const componentButtonBorderSecondaryHover = borderNeutralStrong;
+const borderNeutralWeak = neutral200;
+const componentButtonBorderSecondaryDisabled = borderNeutralWeak;
+const borderDangerStandard = statesDanger300;
+const componentButtonBorderDangerHover = borderDangerStandard;
+const componentButtonTextOnPrimary = textInverseStrong;
+const componentButtonTextOnSecondary = textNeutralStandard;
+const componentButtonTextDisabled = textNeutralWeak;
+const backgroundNeutralStandard = neutral100;
+const backgroundDangerWeak = statesDanger100;
+const borderBrandStandard = primary600;
 
 export const Colors = {
     primary100,
@@ -147,11 +174,38 @@ export const Colors = {
     extraFrog100,
     extraFrog200,
     extraFrog300,
-    brandColor,
-    componentButtonPrimaryBrand,
-    componentButtonPrimaryHovered,
-    componentButtonPrimaryDisabled,
-    componentButtonErrorDefault,
-    componentButtonErrorHovered,
-    componentButtonErrorDisabled,
+    textDisabled,
+    componentButtonBackgroundSecondaryDefault,
+    textNeutralStrong,
+    textNeutralStandard,
+    textNeutralWeak,
+    textBrandStandard,
+    textDangerStandard,
+    textDangerWeak,
+    textInverseStrong,
+    textInverseStandard,
+    componentButtonBackgroundSecondaryHover,
+    componentButtonBackgroundSecondaryDisabled,
+    backgroundDangerStandard,
+    componentButtonBackgroundErrorDefault,
+    componentButtonBackgroundErrorDisabled,
+    backgroundBrandStandard,
+    componentButtonBackgroundPrimaryDefault,
+    componentButtonBackgroundPrimaryHover,
+    backgroundBrandWeak,
+    componentButtonBackgroundPrimaryDisabled,
+    borderNeutralStandard,
+    componentButtonBorderSecondaryDefault,
+    borderNeutralStrong,
+    componentButtonBorderSecondaryHover,
+    borderNeutralWeak,
+    componentButtonBorderSecondaryDisabled,
+    borderDangerStandard,
+    componentButtonBorderDangerHover,
+    componentButtonTextOnPrimary,
+    componentButtonTextOnSecondary,
+    componentButtonTextDisabled,
+    backgroundNeutralStandard,
+    backgroundDangerWeak,
+    borderBrandStandard,
 }

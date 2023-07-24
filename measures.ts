@@ -163,9 +163,59 @@ const sizingComponentButtonSHeight = {
           unit: "Pixels",
           css: "32px"
          };
-const spacingComponentButtonLPadding = spacingSmallSpacesSSpaceS;
-const spacingComponentButtonMPadding = spacingSmallSpacesSSpaceXs;
-const spacingComponentButtonSPadding = spacingSmallSpacesSSpaceXs;
+const spacingXs = {
+          measure: 8,
+          unit: "Pixels",
+          css: "8px"
+         };
+const spacingS = {
+          measure: 12,
+          unit: "Pixels",
+          css: "12px"
+         };
+const spacingM = {
+          measure: 16,
+          unit: "Pixels",
+          css: "16px"
+         };
+const spacingL = {
+          measure: 20,
+          unit: "Pixels",
+          css: "20px"
+         };
+const spacingXl = {
+          measure: 32,
+          unit: "Pixels",
+          css: "32px"
+         };
+const spacingLayoutXs = {
+          measure: 24,
+          unit: "Pixels",
+          css: "24px"
+         };
+const spacingLayoutS = {
+          measure: 32,
+          unit: "Pixels",
+          css: "32px"
+         };
+const spacingLayoutM = {
+          measure: 40,
+          unit: "Pixels",
+          css: "40px"
+         };
+const spacingLayoutL = {
+          measure: 48,
+          unit: "Pixels",
+          css: "48px"
+         };
+const spacingLayoutXl = {
+          measure: 56,
+          unit: "Pixels",
+          css: "56px"
+         };
+const spacingComponentButtonLPadding = spacingL;
+const spacingComponentButtonMPadding = spacingM;
+const spacingComponentButtonSPadding = spacingS;
 
 export const Measures = {
       lineHeightLineheights0,
@@ -201,6 +251,16 @@ export const Measures = {
       sizingComponentButtonLHeight,
       sizingComponentButtonMHeight,
       sizingComponentButtonSHeight,
+      spacingXs,
+      spacingS,
+      spacingM,
+      spacingL,
+      spacingXl,
+      spacingLayoutXs,
+      spacingLayoutS,
+      spacingLayoutM,
+      spacingLayoutL,
+      spacingLayoutXl,
       spacingComponentButtonLPadding,
       spacingComponentButtonMPadding,
       spacingComponentButtonSPadding,
