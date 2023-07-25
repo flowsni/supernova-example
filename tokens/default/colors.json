@@ -313,20 +313,6 @@
       }
     },
     "text": {
-      "neutral": {
-        "strong": {
-          "value": "{color.neutral.black.value}",
-          "type": "color"
-        },
-        "standard": {
-          "value": "{color.neutral.800.value}",
-          "type": "color"
-        },
-        "weak": {
-          "value": "{color.neutral.500.value}",
-          "type": "color"
-        }
-      },
       "brand": {
         "standard": {
           "value": "{color.primary.600.value}",
@@ -353,28 +339,120 @@
           "type": "color"
         }
       },
+      "neutral": {
+        "strong": {
+          "value": "{color.neutral.black.value}",
+          "type": "color"
+        },
+        "standard": {
+          "value": "{color.neutral.800.value}",
+          "type": "color"
+        },
+        "weak": {
+          "value": "{color.neutral.500.value}",
+          "type": "color"
+        }
+      },
       "disabled": {
         "value": "#00000000",
         "type": "color"
       }
     },
+    "border": {
+      "brand": {
+        "standard": {
+          "value": "{color.primary.600.value}",
+          "type": "color"
+        }
+      },
+      "danger": {
+        "standard": {
+          "value": "{color.states.danger.300.value}",
+          "type": "color"
+        }
+      },
+      "neutral": {
+        "standard": {
+          "value": "{color.neutral.400.value}",
+          "type": "color"
+        },
+        "strong": {
+          "value": "{color.neutral.600.value}",
+          "type": "color"
+        },
+        "weak": {
+          "value": "{color.neutral.200.value}",
+          "type": "color"
+        }
+      }
+    },
+    "background": {
+      "brand": {
+        "standard": {
+          "value": "{color.primary.600.value}",
+          "type": "color"
+        },
+        "weak": {
+          "value": "{color.primary.200.value}",
+          "type": "color"
+        }
+      },
+      "danger": {
+        "standard": {
+          "value": "{color.states.danger.300.value}",
+          "type": "color"
+        },
+        "weak": {
+          "value": "{color.states.danger.100.value}",
+          "type": "color"
+        }
+      },
+      "neutral": {
+        "standard": {
+          "value": "{color.neutral.100.value}",
+          "type": "color"
+        }
+      }
+    },
     "component": {
       "button": {
-        "background": {
-          "secondary": {
-            "default": {
-              "value": "#000000ff",
-              "type": "color"
-            },
+        "text": {
+          "on-primary": {
+            "value": "{color.text.inverse.strong.value}",
+            "type": "color"
+          },
+          "on-secondary": {
+            "value": "{color.text.neutral.standard.value}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.text.neutral.weak.value}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "danger": {
             "hover": {
-              "value": "{color.neutral.white.value}",
-              "type": "color"
-            },
-            "disabled": {
-              "value": "{color.neutral.white.value}",
+              "value": "{color.border.danger.standard.value}",
               "type": "color"
             }
           },
+          "secondary": {
+            "default": {
+              "value": "{color.border.neutral.standard.value}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.border.neutral.strong.value}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{color.border.neutral.weak.value}",
+              "type": "color"
+            }
+          }
+        },
+        "background": {
           "error": {
             "default": {
               "value": "{color.background.danger.standard.value}",
@@ -398,99 +476,21 @@
               "value": "{color.background.brand.weak.value}",
               "type": "color"
             }
-          }
-        },
-        "border": {
+          },
           "secondary": {
             "default": {
-              "value": "{color.border.neutral.standard.value}",
+              "value": "{color.neutral.white.value}",
               "type": "color"
             },
             "hover": {
-              "value": "{color.border.neutral.strong.value}",
+              "value": "{color.neutral.white.value}",
               "type": "color"
             },
             "disabled": {
-              "value": "{color.border.neutral.weak.value}",
-              "type": "color"
-            }
-          },
-          "danger": {
-            "hover": {
-              "value": "{color.border.danger.standard.value}",
+              "value": "{color.neutral.white.value}",
               "type": "color"
             }
           }
-        },
-        "text": {
-          "on-primary": {
-            "value": "{color.text.inverse.strong.value}",
-            "type": "color"
-          },
-          "on-secondary": {
-            "value": "{color.text.neutral.standard.value}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{color.text.neutral.weak.value}",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "background": {
-      "neutral": {
-        "standard": {
-          "value": "{color.neutral.100.value}",
-          "type": "color"
-        }
-      },
-      "brand": {
-        "standard": {
-          "value": "{color.primary.600.value}",
-          "type": "color"
-        },
-        "weak": {
-          "value": "{color.primary.100.value}",
-          "type": "color"
-        }
-      },
-      "danger": {
-        "standard": {
-          "value": "{color.states.danger.300.value}",
-          "type": "color"
-        },
-        "weak": {
-          "value": "{color.states.danger.100.value}",
-          "type": "color"
-        }
-      }
-    },
-    "border": {
-      "neutral": {
-        "standard": {
-          "value": "{color.neutral.400.value}",
-          "type": "color"
-        },
-        "strong": {
-          "value": "{color.neutral.600.value}",
-          "type": "color"
-        },
-        "weak": {
-          "value": "{color.neutral.200.value}",
-          "type": "color"
-        }
-      },
-      "brand": {
-        "standard": {
-          "value": "{color.primary.600.value}",
-          "type": "color"
-        }
-      },
-      "danger": {
-        "standard": {
-          "value": "{color.states.danger.300.value}",
-          "type": "color"
         }
       }
     }

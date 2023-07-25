@@ -324,21 +324,15 @@
         }
       },
       "component": {
-        "button-l": {
-          "padding": {
-            "value": "{measure.spacing.l.value}",
-            "type": "measure"
-          }
-        },
-        "button-m": {
-          "padding": {
-            "value": "{measure.spacing.m.value}",
-            "type": "measure"
-          }
-        },
         "button-s": {
           "padding": {
             "value": "{measure.spacing.s.value}",
+            "type": "measure"
+          }
+        },
+        "button-regular": {
+          "padding": {
+            "value": "{measure.spacing.m.value}",
             "type": "measure"
           }
         }
@@ -570,42 +564,27 @@
     },
     "sizing": {
       "component": {
-        "button-l": {
-          "height": {
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 50
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            },
-            "type": "measure"
-          }
-        },
-        "button-m": {
-          "height": {
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 40
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            },
-            "type": "measure"
-          }
-        },
         "button-s": {
           "height": {
             "value": {
               "measure": {
                 "type": "size",
                 "value": 32
+              },
+              "unit": {
+                "type": "string",
+                "value": "pixels"
+              }
+            },
+            "type": "measure"
+          }
+        },
+        "button-regular": {
+          "height": {
+            "value": {
+              "measure": {
+                "type": "size",
+                "value": 42
               },
               "unit": {
                 "type": "string",
