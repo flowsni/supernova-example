@@ -5,4 +5,6 @@ export const Container = styled.div`
   height: 500px;
   margin: auto;
   background-color: white;
+  display: flex;
+  align-items: center;
 `;

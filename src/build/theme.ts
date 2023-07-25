@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 25 Jul 2023 09:25:43 GMT
+ * Generated on Tue, 25 Jul 2023 13:58:08 GMT
  */
 
 export const theme = {
@@ -109,11 +109,6 @@ export const theme = {
       },
     },
     text: {
-      neutral: {
-        strong: '#141416',
-        standard: '#6e6e71',
-        weak: '#b5b5b5',
-      },
       brand: {
         standard: '#1500f7',
       },
@@ -125,16 +120,57 @@ export const theme = {
         strong: '#ffffff',
         standard: '#f9f9f9',
       },
+      neutral: {
+        strong: '#141416',
+        standard: '#6e6e71',
+        weak: '#b5b5b5',
+      },
       disabled: 'rgba(0, 0, 0, 0)',
+    },
+    border: {
+      brand: {
+        standard: '#1500f7',
+      },
+      danger: {
+        standard: '#da1414',
+      },
+      neutral: {
+        standard: '#cbcbcb',
+        strong: '#9e9e9e',
+        weak: '#f5f5f5',
+      },
+    },
+    background: {
+      brand: {
+        standard: '#1500f7',
+        weak: '#bdb7ff',
+      },
+      danger: {
+        standard: '#da1414',
+        weak: '#fceaea',
+      },
+      neutral: {
+        standard: '#f9f9f9',
+      },
     },
     component: {
       button: {
-        background: {
-          secondary: {
-            default: '#000000',
-            hover: '#ffffff',
-            disabled: '#ffffff',
+        text: {
+          'on-primary': '#ffffff',
+          'on-secondary': '#6e6e71',
+          disabled: '#b5b5b5',
+        },
+        border: {
+          danger: {
+            hover: '#da1414',
           },
+          secondary: {
+            default: '#cbcbcb',
+            hover: '#9e9e9e',
+            disabled: '#f5f5f5',
+          },
+        },
+        background: {
           error: {
             default: '#da1414',
             disabled: '#fceaea',
@@ -142,50 +178,14 @@ export const theme = {
           primary: {
             default: '#1500f7',
             hover: '#0e00a5',
-            disabled: '#f1effe',
+            disabled: '#bdb7ff',
           },
-        },
-        border: {
           secondary: {
-            default: '#cbcbcb',
-            hover: '#9e9e9e',
-            disabled: '#f5f5f5',
-          },
-          danger: {
-            hover: '#da1414',
+            default: '#ffffff',
+            hover: '#ffffff',
+            disabled: '#ffffff',
           },
         },
-        text: {
-          'on-primary': '#ffffff',
-          'on-secondary': '#6e6e71',
-          disabled: '#b5b5b5',
-        },
-      },
-    },
-    background: {
-      neutral: {
-        standard: '#f9f9f9',
-      },
-      brand: {
-        standard: '#1500f7',
-        weak: '#f1effe',
-      },
-      danger: {
-        standard: '#da1414',
-        weak: '#fceaea',
-      },
-    },
-    border: {
-      neutral: {
-        standard: '#cbcbcb',
-        strong: '#9e9e9e',
-        weak: '#f5f5f5',
-      },
-      brand: {
-        standard: '#1500f7',
-      },
-      danger: {
-        standard: '#da1414',
       },
     },
   },
@@ -540,43 +540,27 @@ export const theme = {
         },
       },
       component: {
-        'button-l': {
-          padding: {
-            measure: {
-              type: 'size',
-              value: 20,
-              filePath: 'tokens/default/measures.json',
-              isSource: true,
-            },
-            unit: {
-              type: 'string',
-              value: 'pixels',
-              filePath: 'tokens/default/measures.json',
-              isSource: true,
-            },
-          },
-        },
-        'button-m': {
-          padding: {
-            measure: {
-              type: 'size',
-              value: 16,
-              filePath: 'tokens/default/measures.json',
-              isSource: true,
-            },
-            unit: {
-              type: 'string',
-              value: 'pixels',
-              filePath: 'tokens/default/measures.json',
-              isSource: true,
-            },
-          },
-        },
         'button-s': {
           padding: {
             measure: {
               type: 'size',
               value: 12,
+              filePath: 'tokens/default/measures.json',
+              isSource: true,
+            },
+            unit: {
+              type: 'string',
+              value: 'pixels',
+              filePath: 'tokens/default/measures.json',
+              isSource: true,
+            },
+          },
+        },
+        'button-regular': {
+          padding: {
+            measure: {
+              type: 'size',
+              value: 16,
               filePath: 'tokens/default/measures.json',
               isSource: true,
             },
@@ -832,43 +816,27 @@ export const theme = {
     },
     sizing: {
       component: {
-        'button-l': {
-          height: {
-            measure: {
-              type: 'size',
-              value: 50,
-              filePath: 'tokens/default/measures.json',
-              isSource: true,
-            },
-            unit: {
-              type: 'string',
-              value: 'pixels',
-              filePath: 'tokens/default/measures.json',
-              isSource: true,
-            },
-          },
-        },
-        'button-m': {
-          height: {
-            measure: {
-              type: 'size',
-              value: 40,
-              filePath: 'tokens/default/measures.json',
-              isSource: true,
-            },
-            unit: {
-              type: 'string',
-              value: 'pixels',
-              filePath: 'tokens/default/measures.json',
-              isSource: true,
-            },
-          },
-        },
         'button-s': {
           height: {
             measure: {
               type: 'size',
               value: 32,
+              filePath: 'tokens/default/measures.json',
+              isSource: true,
+            },
+            unit: {
+              type: 'string',
+              value: 'pixels',
+              filePath: 'tokens/default/measures.json',
+              isSource: true,
+            },
+          },
+        },
+        'button-regular': {
+          height: {
+            measure: {
+              type: 'size',
+              value: 42,
               filePath: 'tokens/default/measures.json',
               isSource: true,
             },

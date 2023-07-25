@@ -10,7 +10,7 @@ type ButtonProps = {
 
 export function Button({
   variant = 'primary',
-  spacing = 'button-m',
+  spacing = 'button-regular',
   disabled = false,
 }: ButtonProps): ReactElement {
   return (

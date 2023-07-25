@@ -7,6 +7,7 @@ function App() {
     <Container>
       <Button />
       <Button variant="secondary" />
+
       <Button variant="error" />
       <Button disabled />
     </Container>
