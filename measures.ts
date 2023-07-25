@@ -148,16 +148,6 @@ const spacingLargeSpacesLSpaceXxl = {
           unit: "Pixels",
           css: "128px"
          };
-const sizingComponentButtonLHeight = {
-          measure: 50,
-          unit: "Pixels",
-          css: "50px"
-         };
-const sizingComponentButtonMHeight = {
-          measure: 40,
-          unit: "Pixels",
-          css: "40px"
-         };
 const sizingComponentButtonSHeight = {
           measure: 32,
           unit: "Pixels",
@@ -213,9 +203,13 @@ const spacingLayoutXl = {
           unit: "Pixels",
           css: "56px"
          };
-const spacingComponentButtonLPadding = spacingL;
-const spacingComponentButtonMPadding = spacingM;
+const sizingComponentButtonRegularHeight = {
+          measure: 42,
+          unit: "Pixels",
+          css: "42px"
+         };
 const spacingComponentButtonSPadding = spacingS;
+const spacingComponentButtonRegularPadding = spacingM;
 
 export const Measures = {
       lineHeightLineheights0,
@@ -248,8 +242,6 @@ export const Measures = {
       spacingLargeSpacesSSpaceLg,
       spacingLargeSpacesLSpaceXl,
       spacingLargeSpacesLSpaceXxl,
-      sizingComponentButtonLHeight,
-      sizingComponentButtonMHeight,
       sizingComponentButtonSHeight,
       spacingXs,
       spacingS,
@@ -261,7 +253,7 @@ export const Measures = {
       spacingLayoutM,
       spacingLayoutL,
       spacingLayoutXl,
-      spacingComponentButtonLPadding,
-      spacingComponentButtonMPadding,
+      sizingComponentButtonRegularHeight,
       spacingComponentButtonSPadding,
+      spacingComponentButtonRegularPadding,
 }
