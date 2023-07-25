@@ -69,7 +69,6 @@ const extraFrog100 = "#b4efba";
 const extraFrog200 = "#69ff78";
 const extraFrog300 = "#00ac11";
 const textDisabled = "#00000000";
-const componentButtonBackgroundSecondaryDefault = "#000000";
 const textNeutralStrong = neutralBlack;
 const textNeutralStandard = neutral800;
 const textNeutralWeak = neutral500;
@@ -78,6 +77,7 @@ const textDangerStandard = statesDanger300;
 const textDangerWeak = statesDanger200;
 const textInverseStrong = neutralWhite;
 const textInverseStandard = neutral100;
+const componentButtonBackgroundSecondaryDefault = neutralWhite;
 const componentButtonBackgroundSecondaryHover = neutralWhite;
 const componentButtonBackgroundSecondaryDisabled = neutralWhite;
 const backgroundDangerStandard = statesDanger300;
@@ -175,7 +175,6 @@ export const Colors = {
     extraFrog200,
     extraFrog300,
     textDisabled,
-    componentButtonBackgroundSecondaryDefault,
     textNeutralStrong,
     textNeutralStandard,
     textNeutralWeak,
@@ -184,6 +183,7 @@ export const Colors = {
     textDangerWeak,
     textInverseStrong,
     textInverseStandard,
+    componentButtonBackgroundSecondaryDefault,
     componentButtonBackgroundSecondaryHover,
     componentButtonBackgroundSecondaryDisabled,
     backgroundDangerStandard,
