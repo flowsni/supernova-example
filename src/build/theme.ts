@@ -1,69 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Tue, 25 Jul 2023 13:58:08 GMT
+ * Generated on Thu, 27 Jul 2023 09:01:13 GMT
  */
 
 export const theme = {
   border: {},
   color: {
-    extra: {
-      frog: {
-        '100': '#b4efba',
-        '200': '#69ff78',
-        '300': '#00ac11',
-      },
-      pink: {
-        '100': '#ffd7ec',
-        '200': '#ff7dc3',
-        '300': '#da2185',
-      },
-      brown: {
-        '100': '#f4e6d5',
-        '200': '#ffba69',
-        '300': '#aa5c00',
-      },
-      purple: {
-        '100': '#f3daff',
-        '200': '#e372ff',
-        '300': '#ad00ff',
-      },
-    },
-    states: {
-      danger: {
-        '100': '#fceaea',
-        '200': '#f4b9b9',
-        '300': '#da1414',
-      },
-      success: {
-        '100': '#e5fff8',
-        '200': '#9ee4ce',
-        '300': '#37c99b',
-      },
-      warning: {
-        '100': '#ffe8e0',
-        '200': '#ffc5b1',
-        '300': '#fc6533',
-      },
-      informative: {
-        '100': '#f1effe',
-        '200': '#bdb7ff',
-        '300': '#1500f7',
-      },
-    },
-    neutral: {
-      '100': '#f9f9f9',
-      '200': '#f5f5f5',
-      '300': '#e2e2e2',
-      '400': '#cbcbcb',
-      '500': '#b5b5b5',
-      '600': '#9e9e9e',
-      '700': '#878787',
-      '800': '#6e6e71',
-      '900': '#57575a',
-      '1000': '#404043',
-      white: '#ffffff',
-      black: '#141416',
-    },
     primary: {
       '100': '#f1effe',
       '200': '#bdb7ff',
@@ -76,17 +18,74 @@ export const theme = {
       '900': '#0b007d',
       '1000': '#070054',
     },
-    secondary: {
-      agrume: {
-        '100': '#fffbfa',
-        '200': '#fff3ef',
-        '300': '#ffeae3',
-        '400': '#ffd9cc',
-        '500': '#ffbfaa',
-        '600': '#ffa587',
-        '700': '#ff8b64',
-        '800': '#fc6533',
+    component: {
+      button: {
+        background: {
+          error: {
+            default: '#da1414',
+            disabled: '#fceaea',
+          },
+          primary: {
+            default: '#070054',
+            hover: '#0e00a5',
+            disabled: '#bdb7ff',
+          },
+          secondary: {
+            default: '#ffffff',
+            hover: '#ffffff',
+            disabled: '#ffffff',
+          },
+        },
+        border: {
+          secondary: {
+            default: '#cbcbcb',
+            hover: '#9e9e9e',
+            disabled: '#f5f5f5',
+          },
+          danger: {
+            hover: '#da1414',
+          },
+        },
+        text: {
+          'on-primary': '#ffffff',
+          'on-secondary': '#6e6e71',
+          disabled: '#b5b5b5',
+        },
       },
+    },
+    background: {
+      brand: {
+        weak: '#bdb7ff',
+        standard: '#1500f7',
+      },
+      danger: {
+        standard: '#da1414',
+        weak: '#fceaea',
+      },
+      neutral: {
+        standard: '#f9f9f9',
+      },
+    },
+    text: {
+      neutral: {
+        strong: '#141416',
+        standard: '#6e6e71',
+        weak: '#b5b5b5',
+      },
+      inverse: {
+        strong: '#ffffff',
+        standard: '#f9f9f9',
+      },
+      danger: {
+        standard: '#da1414',
+        weak: '#f4b9b9',
+      },
+      brand: {
+        standard: '#1500f7',
+      },
+      disabled: 'rgba(0, 0, 0, 0)',
+    },
+    secondary: {
       paleyellow: {
         '100': '#fffcf6',
         '200': '#fff4dc',
@@ -107,97 +106,98 @@ export const theme = {
         '700': '#6ad6b4',
         '800': '#37c99b',
       },
+      agrume: {
+        '100': '#fffbfa',
+        '200': '#fff3ef',
+        '300': '#ffeae3',
+        '400': '#ffd9cc',
+        '500': '#ffbfaa',
+        '600': '#ffa587',
+        '700': '#ff8b64',
+        '800': '#fc6533',
+      },
     },
-    text: {
-      brand: {
-        standard: '#1500f7',
+    states: {
+      warning: {
+        '100': '#ffe8e0',
+        '200': '#ffc5b1',
+        '300': '#fc6533',
+      },
+      informative: {
+        '100': '#f1effe',
+        '200': '#bdb7ff',
+        '300': '#1500f7',
+      },
+      success: {
+        '100': '#e5fff8',
+        '200': '#9ee4ce',
+        '300': '#37c99b',
       },
       danger: {
-        standard: '#da1414',
-        weak: '#f4b9b9',
+        '100': '#fceaea',
+        '200': '#f4b9b9',
+        '300': '#da1414',
       },
-      inverse: {
-        strong: '#ffffff',
-        standard: '#f9f9f9',
-      },
-      neutral: {
-        strong: '#141416',
-        standard: '#6e6e71',
-        weak: '#b5b5b5',
-      },
-      disabled: 'rgba(0, 0, 0, 0)',
     },
     border: {
-      brand: {
-        standard: '#1500f7',
-      },
-      danger: {
-        standard: '#da1414',
-      },
       neutral: {
         standard: '#cbcbcb',
         strong: '#9e9e9e',
         weak: '#f5f5f5',
       },
-    },
-    background: {
-      brand: {
-        standard: '#1500f7',
-        weak: '#bdb7ff',
-      },
       danger: {
         standard: '#da1414',
-        weak: '#fceaea',
       },
-      neutral: {
-        standard: '#f9f9f9',
+      brand: {
+        standard: '#1500f7',
       },
     },
-    component: {
-      button: {
-        text: {
-          'on-primary': '#ffffff',
-          'on-secondary': '#6e6e71',
-          disabled: '#b5b5b5',
-        },
-        border: {
-          danger: {
-            hover: '#da1414',
-          },
-          secondary: {
-            default: '#cbcbcb',
-            hover: '#9e9e9e',
-            disabled: '#f5f5f5',
-          },
-        },
-        background: {
-          error: {
-            default: '#da1414',
-            disabled: '#fceaea',
-          },
-          primary: {
-            default: '#1500f7',
-            hover: '#0e00a5',
-            disabled: '#bdb7ff',
-          },
-          secondary: {
-            default: '#ffffff',
-            hover: '#ffffff',
-            disabled: '#ffffff',
-          },
-        },
+    neutral: {
+      '100': '#f9f9f9',
+      '200': '#f5f5f5',
+      '300': '#e2e2e2',
+      '400': '#cbcbcb',
+      '500': '#b5b5b5',
+      '600': '#9e9e9e',
+      '700': '#878787',
+      '800': '#6e6e71',
+      '900': '#57575a',
+      '1000': '#404043',
+      white: '#ffffff',
+      black: '#141416',
+    },
+    extra: {
+      purple: {
+        '100': '#f3daff',
+        '200': '#e372ff',
+        '300': '#ad00ff',
+      },
+      brown: {
+        '100': '#f4e6d5',
+        '200': '#ffba69',
+        '300': '#aa5c00',
+      },
+      pink: {
+        '100': '#ffd7ec',
+        '200': '#ff7dc3',
+        '300': '#da2185',
+      },
+      frog: {
+        '100': '#b4efba',
+        '200': '#69ff78',
+        '300': '#00ac11',
       },
     },
   },
   font: {},
   gradient: {},
   measure: {
-    'font-size': {
-      fontsize: {
+    'line-height': {
+      lineheights: {
         '0': {
           measure: {
             type: 'size',
-            value: 11,
+            value: 0,
             filePath: 'tokens/default/measures.json',
             isSource: true,
           },
@@ -211,7 +211,7 @@ export const theme = {
         '1': {
           measure: {
             type: 'size',
-            value: 12,
+            value: 26,
             filePath: 'tokens/default/measures.json',
             isSource: true,
           },
@@ -225,7 +225,7 @@ export const theme = {
         '2': {
           measure: {
             type: 'size',
-            value: 14,
+            value: 24,
             filePath: 'tokens/default/measures.json',
             isSource: true,
           },
@@ -239,7 +239,7 @@ export const theme = {
         '3': {
           measure: {
             type: 'size',
-            value: 16,
+            value: 22,
             filePath: 'tokens/default/measures.json',
             isSource: true,
           },
@@ -253,21 +253,7 @@ export const theme = {
         '4': {
           measure: {
             type: 'size',
-            value: 18,
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-          unit: {
-            type: 'string',
-            value: 'pixels',
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-        },
-        '5': {
-          measure: {
-            type: 'size',
-            value: 24,
+            value: 20,
             filePath: 'tokens/default/measures.json',
             isSource: true,
           },
@@ -281,92 +267,6 @@ export const theme = {
       },
     },
     spacing: {
-      'large-spaces': {
-        'l-space-xs': {
-          measure: {
-            type: 'size',
-            value: 40,
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-          unit: {
-            type: 'string',
-            value: 'pixels',
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-        },
-        'l-space-s': {
-          measure: {
-            type: 'size',
-            value: 48,
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-          unit: {
-            type: 'string',
-            value: 'pixels',
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-        },
-        'l-space-md': {
-          measure: {
-            type: 'size',
-            value: 64,
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-          unit: {
-            type: 'string',
-            value: 'pixels',
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-        },
-        's-space-lg': {
-          measure: {
-            type: 'size',
-            value: 80,
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-          unit: {
-            type: 'string',
-            value: 'pixels',
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-        },
-        'l-space-xl': {
-          measure: {
-            type: 'size',
-            value: 96,
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-          unit: {
-            type: 'string',
-            value: 'pixels',
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-        },
-        'l-space-xxl': {
-          measure: {
-            type: 'size',
-            value: 128,
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-          unit: {
-            type: 'string',
-            value: 'pixels',
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-        },
-      },
       'small-spaces': {
         's-space-xxs': {
           measure: {
@@ -539,6 +439,92 @@ export const theme = {
           },
         },
       },
+      'large-spaces': {
+        'l-space-xs': {
+          measure: {
+            type: 'size',
+            value: 40,
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+          unit: {
+            type: 'string',
+            value: 'pixels',
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+        },
+        'l-space-s': {
+          measure: {
+            type: 'size',
+            value: 48,
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+          unit: {
+            type: 'string',
+            value: 'pixels',
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+        },
+        'l-space-md': {
+          measure: {
+            type: 'size',
+            value: 64,
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+          unit: {
+            type: 'string',
+            value: 'pixels',
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+        },
+        's-space-lg': {
+          measure: {
+            type: 'size',
+            value: 80,
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+          unit: {
+            type: 'string',
+            value: 'pixels',
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+        },
+        'l-space-xl': {
+          measure: {
+            type: 'size',
+            value: 96,
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+          unit: {
+            type: 'string',
+            value: 'pixels',
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+        },
+        'l-space-xxl': {
+          measure: {
+            type: 'size',
+            value: 128,
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+          unit: {
+            type: 'string',
+            value: 'pixels',
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+        },
+      },
       component: {
         'button-s': {
           padding: {
@@ -658,8 +644,8 @@ export const theme = {
         },
       },
     },
-    'line-height': {
-      lineheights: {
+    'paragraph-spacing': {
+      paragraphspacing: {
         '0': {
           measure: {
             type: 'size',
@@ -677,7 +663,7 @@ export const theme = {
         '1': {
           measure: {
             type: 'size',
-            value: 26,
+            value: 8,
             filePath: 'tokens/default/measures.json',
             isSource: true,
           },
@@ -688,38 +674,14 @@ export const theme = {
             isSource: true,
           },
         },
-        '2': {
+      },
+    },
+    dimension: {
+      paragraphindent: {
+        '0': {
           measure: {
             type: 'size',
-            value: 24,
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-          unit: {
-            type: 'string',
-            value: 'pixels',
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-        },
-        '3': {
-          measure: {
-            type: 'size',
-            value: 22,
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-          unit: {
-            type: 'string',
-            value: 'pixels',
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-        },
-        '4': {
-          measure: {
-            type: 'size',
-            value: 20,
+            value: 0,
             filePath: 'tokens/default/measures.json',
             isSource: true,
           },
@@ -764,30 +726,12 @@ export const theme = {
         },
       },
     },
-    dimension: {
-      paragraphindent: {
+    'font-size': {
+      fontsize: {
         '0': {
           measure: {
             type: 'size',
-            value: 0,
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-          unit: {
-            type: 'string',
-            value: 'pixels',
-            filePath: 'tokens/default/measures.json',
-            isSource: true,
-          },
-        },
-      },
-    },
-    'paragraph-spacing': {
-      paragraphspacing: {
-        '0': {
-          measure: {
-            type: 'size',
-            value: 0,
+            value: 11,
             filePath: 'tokens/default/measures.json',
             isSource: true,
           },
@@ -801,7 +745,63 @@ export const theme = {
         '1': {
           measure: {
             type: 'size',
-            value: 8,
+            value: 12,
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+          unit: {
+            type: 'string',
+            value: 'pixels',
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+        },
+        '2': {
+          measure: {
+            type: 'size',
+            value: 14,
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+          unit: {
+            type: 'string',
+            value: 'pixels',
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+        },
+        '3': {
+          measure: {
+            type: 'size',
+            value: 16,
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+          unit: {
+            type: 'string',
+            value: 'pixels',
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+        },
+        '4': {
+          measure: {
+            type: 'size',
+            value: 18,
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+          unit: {
+            type: 'string',
+            value: 'pixels',
+            filePath: 'tokens/default/measures.json',
+            isSource: true,
+          },
+        },
+        '5': {
+          measure: {
+            type: 'size',
+            value: 24,
             filePath: 'tokens/default/measures.json',
             isSource: true,
           },
@@ -1144,205 +1144,104 @@ export const theme = {
   },
   text: {},
   typography: {
-    ui: {
-      'tableheader-11px': {
-        regular: {
-          font: {
-            type: 'font',
-            value: {
-              family: {
-                type: 'string',
-                value: 'Heebo',
-                filePath: 'tokens/default/typography.json',
-                isSource: true,
-              },
-              subfamily: {
-                type: 'string',
-                value: 'Regular',
-                filePath: 'tokens/default/typography.json',
-                isSource: true,
-              },
+    headings: {
+      'h1-24px': {
+        font: {
+          type: 'font',
+          value: {
+            family: {
+              type: 'string',
+              value: 'Heebo',
+              filePath: 'tokens/default/typography.json',
+              isSource: true,
             },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          fontSize: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 11,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
+            subfamily: {
+              type: 'string',
+              value: 'Bold',
+              filePath: 'tokens/default/typography.json',
+              isSource: true,
             },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
           },
-          textDecoration: 'None',
-          textCase: 'Original',
-          letterSpacing: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 8,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'percent',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          paragraphIndent: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 0,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          lineHeight: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 0,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
+          filePath: 'tokens/default/typography.json',
+          isSource: true,
         },
-        bold: {
-          font: {
-            type: 'font',
-            value: {
-              family: {
-                type: 'string',
-                value: 'Heebo',
-                filePath: 'tokens/default/typography.json',
-                isSource: true,
-              },
-              subfamily: {
-                type: 'string',
-                value: 'Bold',
-                filePath: 'tokens/default/typography.json',
-                isSource: true,
-              },
+        fontSize: {
+          type: 'measure',
+          value: {
+            measure: {
+              type: 'size',
+              value: 24,
+              filePath: 'tokens/default/measures.json',
+              isSource: true,
             },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          fontSize: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 11,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
+            unit: {
+              type: 'string',
+              value: 'pixels',
+              filePath: 'tokens/default/measures.json',
+              isSource: true,
             },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
           },
-          textDecoration: 'None',
-          textCase: 'Original',
-          letterSpacing: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 8,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'percent',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
+          filePath: 'tokens/default/typography.json',
+          isSource: true,
+        },
+        textDecoration: 'None',
+        textCase: 'Original',
+        letterSpacing: {
+          type: 'measure',
+          value: {
+            measure: {
+              type: 'size',
+              value: 0,
+              filePath: 'tokens/default/measures.json',
+              isSource: true,
             },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          paragraphIndent: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 0,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
+            unit: {
+              type: 'string',
+              value: 'percent',
+              filePath: 'tokens/default/measures.json',
+              isSource: true,
             },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
           },
-          lineHeight: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 0,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
+          filePath: 'tokens/default/typography.json',
+          isSource: true,
+        },
+        paragraphIndent: {
+          type: 'measure',
+          value: {
+            measure: {
+              type: 'size',
+              value: 0,
+              filePath: 'tokens/default/measures.json',
+              isSource: true,
             },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
+            unit: {
+              type: 'string',
+              value: 'pixels',
+              filePath: 'tokens/default/measures.json',
+              isSource: true,
+            },
           },
+          filePath: 'tokens/default/typography.json',
+          isSource: true,
+        },
+        lineHeight: {
+          type: 'measure',
+          value: {
+            measure: {
+              type: 'size',
+              value: 0,
+              filePath: 'tokens/default/measures.json',
+              isSource: true,
+            },
+            unit: {
+              type: 'string',
+              value: 'pixels',
+              filePath: 'tokens/default/measures.json',
+              isSource: true,
+            },
+          },
+          filePath: 'tokens/default/typography.json',
+          isSource: true,
         },
       },
     },
@@ -1532,406 +1431,6 @@ export const theme = {
               measure: {
                 type: 'size',
                 value: 26,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-        },
-      },
-      'm-16px': {
-        regular: {
-          font: {
-            type: 'font',
-            value: {
-              family: {
-                type: 'string',
-                value: 'Heebo',
-                filePath: 'tokens/default/typography.json',
-                isSource: true,
-              },
-              subfamily: {
-                type: 'string',
-                value: 'Regular',
-                filePath: 'tokens/default/typography.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          fontSize: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 16,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          textDecoration: 'None',
-          textCase: 'Original',
-          letterSpacing: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 0,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'percent',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          paragraphIndent: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 0,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          lineHeight: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 24,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-        },
-        bold: {
-          font: {
-            type: 'font',
-            value: {
-              family: {
-                type: 'string',
-                value: 'Heebo',
-                filePath: 'tokens/default/typography.json',
-                isSource: true,
-              },
-              subfamily: {
-                type: 'string',
-                value: 'Bold',
-                filePath: 'tokens/default/typography.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          fontSize: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 16,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          textDecoration: 'None',
-          textCase: 'Original',
-          letterSpacing: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 0,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'percent',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          paragraphIndent: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 0,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          lineHeight: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 24,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-        },
-      },
-      's-14px': {
-        regular: {
-          font: {
-            type: 'font',
-            value: {
-              family: {
-                type: 'string',
-                value: 'Heebo',
-                filePath: 'tokens/default/typography.json',
-                isSource: true,
-              },
-              subfamily: {
-                type: 'string',
-                value: 'Regular',
-                filePath: 'tokens/default/typography.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          fontSize: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 14,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          textDecoration: 'None',
-          textCase: 'Original',
-          letterSpacing: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 0,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'percent',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          paragraphIndent: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 0,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          lineHeight: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 22,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-        },
-        bold: {
-          font: {
-            type: 'font',
-            value: {
-              family: {
-                type: 'string',
-                value: 'Heebo',
-                filePath: 'tokens/default/typography.json',
-                isSource: true,
-              },
-              subfamily: {
-                type: 'string',
-                value: 'Bold',
-                filePath: 'tokens/default/typography.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          fontSize: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 14,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          textDecoration: 'None',
-          textCase: 'Original',
-          letterSpacing: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 0,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'percent',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          paragraphIndent: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 0,
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-              unit: {
-                type: 'string',
-                value: 'pixels',
-                filePath: 'tokens/default/measures.json',
-                isSource: true,
-              },
-            },
-            filePath: 'tokens/default/typography.json',
-            isSource: true,
-          },
-          lineHeight: {
-            type: 'measure',
-            value: {
-              measure: {
-                type: 'size',
-                value: 22,
                 filePath: 'tokens/default/measures.json',
                 isSource: true,
               },
@@ -2147,105 +1646,606 @@ export const theme = {
           },
         },
       },
+      's-14px': {
+        regular: {
+          font: {
+            type: 'font',
+            value: {
+              family: {
+                type: 'string',
+                value: 'Heebo',
+                filePath: 'tokens/default/typography.json',
+                isSource: true,
+              },
+              subfamily: {
+                type: 'string',
+                value: 'Regular',
+                filePath: 'tokens/default/typography.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          fontSize: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 14,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          textDecoration: 'None',
+          textCase: 'Original',
+          letterSpacing: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 0,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'percent',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          paragraphIndent: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 0,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          lineHeight: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 22,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+        },
+        bold: {
+          font: {
+            type: 'font',
+            value: {
+              family: {
+                type: 'string',
+                value: 'Heebo',
+                filePath: 'tokens/default/typography.json',
+                isSource: true,
+              },
+              subfamily: {
+                type: 'string',
+                value: 'Bold',
+                filePath: 'tokens/default/typography.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          fontSize: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 14,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          textDecoration: 'None',
+          textCase: 'Original',
+          letterSpacing: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 0,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'percent',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          paragraphIndent: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 0,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          lineHeight: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 22,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+        },
+      },
+      'm-16px': {
+        regular: {
+          font: {
+            type: 'font',
+            value: {
+              family: {
+                type: 'string',
+                value: 'Heebo',
+                filePath: 'tokens/default/typography.json',
+                isSource: true,
+              },
+              subfamily: {
+                type: 'string',
+                value: 'Regular',
+                filePath: 'tokens/default/typography.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          fontSize: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 16,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          textDecoration: 'None',
+          textCase: 'Original',
+          letterSpacing: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 0,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'percent',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          paragraphIndent: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 0,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          lineHeight: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 24,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+        },
+        bold: {
+          font: {
+            type: 'font',
+            value: {
+              family: {
+                type: 'string',
+                value: 'Heebo',
+                filePath: 'tokens/default/typography.json',
+                isSource: true,
+              },
+              subfamily: {
+                type: 'string',
+                value: 'Bold',
+                filePath: 'tokens/default/typography.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          fontSize: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 16,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          textDecoration: 'None',
+          textCase: 'Original',
+          letterSpacing: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 0,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'percent',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          paragraphIndent: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 0,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          lineHeight: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 24,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+        },
+      },
     },
-    headings: {
-      'h1-24px': {
-        font: {
-          type: 'font',
-          value: {
-            family: {
-              type: 'string',
-              value: 'Heebo',
-              filePath: 'tokens/default/typography.json',
-              isSource: true,
+    ui: {
+      'tableheader-11px': {
+        regular: {
+          font: {
+            type: 'font',
+            value: {
+              family: {
+                type: 'string',
+                value: 'Heebo',
+                filePath: 'tokens/default/typography.json',
+                isSource: true,
+              },
+              subfamily: {
+                type: 'string',
+                value: 'Regular',
+                filePath: 'tokens/default/typography.json',
+                isSource: true,
+              },
             },
-            subfamily: {
-              type: 'string',
-              value: 'Bold',
-              filePath: 'tokens/default/typography.json',
-              isSource: true,
-            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
           },
-          filePath: 'tokens/default/typography.json',
-          isSource: true,
+          fontSize: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 11,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          textDecoration: 'None',
+          textCase: 'Original',
+          letterSpacing: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 8,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'percent',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          paragraphIndent: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 0,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
+          lineHeight: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 0,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
         },
-        fontSize: {
-          type: 'measure',
-          value: {
-            measure: {
-              type: 'size',
-              value: 24,
-              filePath: 'tokens/default/measures.json',
-              isSource: true,
+        bold: {
+          font: {
+            type: 'font',
+            value: {
+              family: {
+                type: 'string',
+                value: 'Heebo',
+                filePath: 'tokens/default/typography.json',
+                isSource: true,
+              },
+              subfamily: {
+                type: 'string',
+                value: 'Bold',
+                filePath: 'tokens/default/typography.json',
+                isSource: true,
+              },
             },
-            unit: {
-              type: 'string',
-              value: 'pixels',
-              filePath: 'tokens/default/measures.json',
-              isSource: true,
-            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
           },
-          filePath: 'tokens/default/typography.json',
-          isSource: true,
-        },
-        textDecoration: 'None',
-        textCase: 'Original',
-        letterSpacing: {
-          type: 'measure',
-          value: {
-            measure: {
-              type: 'size',
-              value: 0,
-              filePath: 'tokens/default/measures.json',
-              isSource: true,
+          fontSize: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 11,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
             },
-            unit: {
-              type: 'string',
-              value: 'percent',
-              filePath: 'tokens/default/measures.json',
-              isSource: true,
-            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
           },
-          filePath: 'tokens/default/typography.json',
-          isSource: true,
-        },
-        paragraphIndent: {
-          type: 'measure',
-          value: {
-            measure: {
-              type: 'size',
-              value: 0,
-              filePath: 'tokens/default/measures.json',
-              isSource: true,
+          textDecoration: 'None',
+          textCase: 'Original',
+          letterSpacing: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 8,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'percent',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
             },
-            unit: {
-              type: 'string',
-              value: 'pixels',
-              filePath: 'tokens/default/measures.json',
-              isSource: true,
-            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
           },
-          filePath: 'tokens/default/typography.json',
-          isSource: true,
-        },
-        lineHeight: {
-          type: 'measure',
-          value: {
-            measure: {
-              type: 'size',
-              value: 0,
-              filePath: 'tokens/default/measures.json',
-              isSource: true,
+          paragraphIndent: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 0,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
             },
-            unit: {
-              type: 'string',
-              value: 'pixels',
-              filePath: 'tokens/default/measures.json',
-              isSource: true,
-            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
           },
-          filePath: 'tokens/default/typography.json',
-          isSource: true,
+          lineHeight: {
+            type: 'measure',
+            value: {
+              measure: {
+                type: 'size',
+                value: 0,
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+              unit: {
+                type: 'string',
+                value: 'pixels',
+                filePath: 'tokens/default/measures.json',
+                isSource: true,
+              },
+            },
+            filePath: 'tokens/default/typography.json',
+            isSource: true,
+          },
         },
       },
     },
