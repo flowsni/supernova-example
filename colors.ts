@@ -83,8 +83,7 @@ const componentButtonBackgroundSecondaryDisabled = neutralWhite;
 const backgroundDangerStandard = statesDanger300;
 const componentButtonBackgroundErrorDefault = backgroundDangerStandard;
 const componentButtonBackgroundErrorDisabled = statesDanger100;
-const backgroundBrandStandard = primary600;
-const componentButtonBackgroundPrimaryDefault = backgroundBrandStandard;
+const componentButtonBackgroundPrimaryDefault = primary1000;
 const componentButtonBackgroundPrimaryHover = primary800;
 const backgroundBrandWeak = primary200;
 const componentButtonBackgroundPrimaryDisabled = backgroundBrandWeak;
@@ -100,6 +99,7 @@ const componentButtonTextOnPrimary = textInverseStrong;
 const componentButtonTextOnSecondary = textNeutralStandard;
 const componentButtonTextDisabled = textNeutralWeak;
 const backgroundNeutralStandard = neutral100;
+const backgroundBrandStandard = primary600;
 const backgroundDangerWeak = statesDanger100;
 const borderBrandStandard = primary600;
 
@@ -189,7 +189,6 @@ export const Colors = {
     backgroundDangerStandard,
     componentButtonBackgroundErrorDefault,
     componentButtonBackgroundErrorDisabled,
-    backgroundBrandStandard,
     componentButtonBackgroundPrimaryDefault,
     componentButtonBackgroundPrimaryHover,
     backgroundBrandWeak,
@@ -206,6 +205,7 @@ export const Colors = {
     componentButtonTextOnSecondary,
     componentButtonTextDisabled,
     backgroundNeutralStandard,
+    backgroundBrandStandard,
     backgroundDangerWeak,
     borderBrandStandard,
 }
