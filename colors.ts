@@ -69,6 +69,7 @@ const extraFrog100 = "#b4efba";
 const extraFrog200 = "#69ff78";
 const extraFrog300 = "#00ac11";
 const textDisabled = "#00000000";
+const token1 = "#ffffff";
 const textNeutralStrong = neutralBlack;
 const textNeutralStandard = neutral800;
 const textNeutralWeak = neutral500;
@@ -175,6 +176,7 @@ export const Colors = {
     extraFrog200,
     extraFrog300,
     textDisabled,
+    token1,
     textNeutralStrong,
     textNeutralStandard,
     textNeutralWeak,
