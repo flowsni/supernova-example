@@ -1,259 +1,281 @@
-const lineHeightLineheights0 = {
+const lineHeightLineHeightLineheights0 = {
           measure: 0,
           unit: "Pixels",
           css: "0px"
          };
-const lineHeightLineheights1 = {
+const lineHeightLineHeightLineheights1 = {
           measure: 26,
           unit: "Pixels",
           css: "26px"
          };
-const lineHeightLineheights2 = {
+const lineHeightLineHeightLineheights2 = {
           measure: 24,
           unit: "Pixels",
           css: "24px"
          };
-const lineHeightLineheights3 = {
+const lineHeightLineHeightLineheights3 = {
           measure: 22,
           unit: "Pixels",
           css: "22px"
          };
-const lineHeightLineheights4 = {
+const lineHeightLineHeightLineheights4 = {
           measure: 20,
           unit: "Pixels",
           css: "20px"
          };
-const fontSizeFontsize0 = {
+const fontSizingFontSizeFontsize0 = {
           measure: 11,
           unit: "Pixels",
           css: "11px"
          };
-const fontSizeFontsize1 = {
+const fontSizingFontSizeFontsize1 = {
           measure: 12,
           unit: "Pixels",
           css: "12px"
          };
-const fontSizeFontsize2 = {
+const fontSizingFontSizeFontsize2 = {
           measure: 14,
           unit: "Pixels",
           css: "14px"
          };
-const fontSizeFontsize3 = {
+const fontSizingFontSizeFontsize3 = {
           measure: 16,
           unit: "Pixels",
           css: "16px"
          };
-const fontSizeFontsize4 = {
+const fontSizingFontSizeFontsize4 = {
           measure: 18,
           unit: "Pixels",
           css: "18px"
          };
-const fontSizeFontsize5 = {
+const fontSizingFontSizeFontsize5 = {
           measure: 24,
           unit: "Pixels",
           css: "24px"
          };
-const letterSpacingLetterspacing0 = {
+const letterSpacingLetterSpacingLetterspacing0 = {
           measure: 0,
           unit: "Percent",
           css: "0%"
          };
-const letterSpacingLetterspacing1 = {
+const letterSpacingLetterSpacingLetterspacing1 = {
           measure: 8,
           unit: "Percent",
           css: "8%"
          };
-const paragraphSpacingParagraphspacing0 = {
+const paragraphSpacingParagraphSpacingParagraphspacing0 = {
           measure: 0,
           unit: "Pixels",
           css: "0px"
          };
-const paragraphSpacingParagraphspacing1 = {
+const paragraphSpacingParagraphSpacingParagraphspacing1 = {
           measure: 8,
           unit: "Pixels",
           css: "8px"
          };
-const dimensionParagraphindent0 = {
+const dimensionDimensionParagraphindent0 = {
           measure: 0,
           unit: "Pixels",
           css: "0px"
          };
-const spacingNoSpace = {
+const spacingSpacingNoSpace = {
           measure: 0,
           unit: "Pixels",
           css: "0px"
          };
-const spacingSmallSpacesSSpaceXxs = {
+const spacingSpacingSmallSpacesSSpaceXxs = {
           measure: 4,
           unit: "Pixels",
           css: "4px"
          };
-const spacingSmallSpacesSSpaceXs = {
+const spacingSpacingSmallSpacesSSpaceXs = {
           measure: 8,
           unit: "Pixels",
           css: "8px"
          };
-const spacingSmallSpacesSSpaceS = {
+const spacingSpacingSmallSpacesSSpaceS = {
           measure: 12,
           unit: "Pixels",
           css: "12px"
          };
-const spacingSmallSpacesSSpaceMd = {
+const spacingSpacingSmallSpacesSSpaceMd = {
           measure: 16,
           unit: "Pixels",
           css: "16px"
          };
-const spacingSmallSpacesSSpaceLg = {
+const spacingSpacingSmallSpacesSSpaceLg = {
           measure: 20,
           unit: "Pixels",
           css: "20px"
          };
-const spacingSmallSpacesSSpaceXl = {
+const spacingSpacingSmallSpacesSSpaceXl = {
           measure: 24,
           unit: "Pixels",
           css: "24px"
          };
-const spacingSmallSpacesSSpaceXxl = {
+const spacingSpacingSmallSpacesSSpaceXxl = {
           measure: 32,
           unit: "Pixels",
           css: "32px"
          };
-const spacingLargeSpacesLSpaceXs = {
+const spacingSpacingLargeSpacesLSpaceXs = {
           measure: 40,
           unit: "Pixels",
           css: "40px"
          };
-const spacingLargeSpacesLSpaceS = {
+const spacingSpacingLargeSpacesLSpaceS = {
           measure: 48,
           unit: "Pixels",
           css: "48px"
          };
-const spacingLargeSpacesLSpaceMd = {
+const spacingSpacingLargeSpacesLSpaceMd = {
           measure: 64,
           unit: "Pixels",
           css: "64px"
          };
-const spacingLargeSpacesSSpaceLg = {
+const spacingSpacingLargeSpacesSSpaceLg = {
           measure: 80,
           unit: "Pixels",
           css: "80px"
          };
-const spacingLargeSpacesLSpaceXl = {
+const spacingSpacingLargeSpacesLSpaceXl = {
           measure: 96,
           unit: "Pixels",
           css: "96px"
          };
-const spacingLargeSpacesLSpaceXxl = {
+const spacingSpacingLargeSpacesLSpaceXxl = {
           measure: 128,
           unit: "Pixels",
           css: "128px"
          };
-const sizingComponentButtonSHeight = {
+const sizingSizingComponentButtonSHeight = {
           measure: 32,
           unit: "Pixels",
           css: "32px"
          };
-const spacingXs = {
+const borderRadiusBorderRadiusRadiusDefault = {
+          measure: 4,
+          unit: "Pixels",
+          css: "4px"
+         };
+const borderRadiusBorderRadiusRadiusMd = {
           measure: 8,
           unit: "Pixels",
           css: "8px"
          };
-const spacingS = {
+const borderRadiusBorderRadiusRadiusLg = {
           measure: 12,
           unit: "Pixels",
           css: "12px"
          };
-const spacingM = {
+const spacingSpacingXs = {
+          measure: 8,
+          unit: "Pixels",
+          css: "8px"
+         };
+const spacingSpacingS = {
+          measure: 12,
+          unit: "Pixels",
+          css: "12px"
+         };
+const spacingSpacingM = {
           measure: 16,
           unit: "Pixels",
           css: "16px"
          };
-const spacingL = {
+const spacingSpacingL = {
           measure: 20,
           unit: "Pixels",
           css: "20px"
          };
-const spacingXl = {
+const spacingSpacingXl = {
           measure: 32,
           unit: "Pixels",
           css: "32px"
          };
-const spacingLayoutXs = {
+const spacingSpacingLayoutXs = {
           measure: 24,
           unit: "Pixels",
           css: "24px"
          };
-const spacingLayoutS = {
+const spacingSpacingLayoutS = {
           measure: 32,
           unit: "Pixels",
           css: "32px"
          };
-const spacingLayoutM = {
+const spacingSpacingLayoutM = {
           measure: 40,
           unit: "Pixels",
           css: "40px"
          };
-const spacingLayoutL = {
+const spacingSpacingLayoutL = {
           measure: 48,
           unit: "Pixels",
           css: "48px"
          };
-const spacingLayoutXl = {
+const spacingSpacingLayoutXl = {
           measure: 56,
           unit: "Pixels",
           css: "56px"
          };
-const sizingComponentButtonRegularHeight = {
+const sizingSizingComponentButtonRegularHeight = {
           measure: 42,
           unit: "Pixels",
           css: "42px"
          };
-const spacingComponentButtonSPadding = spacingS;
-const spacingComponentButtonRegularPadding = spacingM;
+const spacingSpacingComponentButtonSPadding = spacingSpacingS;
+const borderRadiusBorderRadiusButton = borderRadiusBorderRadiusRadiusDefault;
+const borderRadiusBorderRadiusCard = borderRadiusBorderRadiusRadiusMd;
+const spacingSpacingComponentButtonRegularPadding = spacingSpacingM;
 
 export const Measures = {
-      lineHeightLineheights0,
-      lineHeightLineheights1,
-      lineHeightLineheights2,
-      lineHeightLineheights3,
-      lineHeightLineheights4,
-      fontSizeFontsize0,
-      fontSizeFontsize1,
-      fontSizeFontsize2,
-      fontSizeFontsize3,
-      fontSizeFontsize4,
-      fontSizeFontsize5,
-      letterSpacingLetterspacing0,
-      letterSpacingLetterspacing1,
-      paragraphSpacingParagraphspacing0,
-      paragraphSpacingParagraphspacing1,
-      dimensionParagraphindent0,
-      spacingNoSpace,
-      spacingSmallSpacesSSpaceXxs,
-      spacingSmallSpacesSSpaceXs,
-      spacingSmallSpacesSSpaceS,
-      spacingSmallSpacesSSpaceMd,
-      spacingSmallSpacesSSpaceLg,
-      spacingSmallSpacesSSpaceXl,
-      spacingSmallSpacesSSpaceXxl,
-      spacingLargeSpacesLSpaceXs,
-      spacingLargeSpacesLSpaceS,
-      spacingLargeSpacesLSpaceMd,
-      spacingLargeSpacesSSpaceLg,
-      spacingLargeSpacesLSpaceXl,
-      spacingLargeSpacesLSpaceXxl,
-      sizingComponentButtonSHeight,
-      spacingXs,
-      spacingS,
-      spacingM,
-      spacingL,
-      spacingXl,
-      spacingLayoutXs,
-      spacingLayoutS,
-      spacingLayoutM,
-      spacingLayoutL,
-      spacingLayoutXl,
-      sizingComponentButtonRegularHeight,
-      spacingComponentButtonSPadding,
-      spacingComponentButtonRegularPadding,
+      lineHeightLineHeightLineheights0,
+      lineHeightLineHeightLineheights1,
+      lineHeightLineHeightLineheights2,
+      lineHeightLineHeightLineheights3,
+      lineHeightLineHeightLineheights4,
+      fontSizingFontSizeFontsize0,
+      fontSizingFontSizeFontsize1,
+      fontSizingFontSizeFontsize2,
+      fontSizingFontSizeFontsize3,
+      fontSizingFontSizeFontsize4,
+      fontSizingFontSizeFontsize5,
+      letterSpacingLetterSpacingLetterspacing0,
+      letterSpacingLetterSpacingLetterspacing1,
+      paragraphSpacingParagraphSpacingParagraphspacing0,
+      paragraphSpacingParagraphSpacingParagraphspacing1,
+      dimensionDimensionParagraphindent0,
+      spacingSpacingNoSpace,
+      spacingSpacingSmallSpacesSSpaceXxs,
+      spacingSpacingSmallSpacesSSpaceXs,
+      spacingSpacingSmallSpacesSSpaceS,
+      spacingSpacingSmallSpacesSSpaceMd,
+      spacingSpacingSmallSpacesSSpaceLg,
+      spacingSpacingSmallSpacesSSpaceXl,
+      spacingSpacingSmallSpacesSSpaceXxl,
+      spacingSpacingLargeSpacesLSpaceXs,
+      spacingSpacingLargeSpacesLSpaceS,
+      spacingSpacingLargeSpacesLSpaceMd,
+      spacingSpacingLargeSpacesSSpaceLg,
+      spacingSpacingLargeSpacesLSpaceXl,
+      spacingSpacingLargeSpacesLSpaceXxl,
+      sizingSizingComponentButtonSHeight,
+      borderRadiusBorderRadiusRadiusDefault,
+      borderRadiusBorderRadiusRadiusMd,
+      borderRadiusBorderRadiusRadiusLg,
+      spacingSpacingXs,
+      spacingSpacingS,
+      spacingSpacingM,
+      spacingSpacingL,
+      spacingSpacingXl,
+      spacingSpacingLayoutXs,
+      spacingSpacingLayoutS,
+      spacingSpacingLayoutM,
+      spacingSpacingLayoutL,
+      spacingSpacingLayoutXl,
+      sizingSizingComponentButtonRegularHeight,
+      spacingSpacingComponentButtonSPadding,
+      borderRadiusBorderRadiusButton,
+      borderRadiusBorderRadiusCard,
+      spacingSpacingComponentButtonRegularPadding,
 }

@@ -3,7 +3,7 @@ import { Measures } from './measures';
 const headingsH124px = {
            fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 700,
+           fontWeight: 400,
            fontSize: {
                       measure: 24,
                       unit: "Pixels",
@@ -48,7 +48,7 @@ const bodyL18pxRegular = {
 const bodyL18pxBold = {
            fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 700,
+           fontWeight: 400,
            fontSize: {
                       measure: 18,
                       unit: "Pixels",
@@ -98,7 +98,7 @@ const bodyM16pxRegular = {
 const bodyM16pxBold = {
            fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 700,
+           fontWeight: 400,
            fontSize: {
                       measure: 16,
                       unit: "Pixels",
@@ -148,7 +148,7 @@ const bodyS14pxRegular = {
 const bodyS14pxBold = {
            fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 700,
+           fontWeight: 400,
            fontSize: {
                       measure: 14,
                       unit: "Pixels",
@@ -198,7 +198,7 @@ const bodyXs12pxRegular = {
 const bodyXs12pxBold = {
            fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 700,
+           fontWeight: 400,
            fontSize: {
                       measure: 12,
                       unit: "Pixels",
@@ -243,7 +243,7 @@ const uiTableheader11pxRegular = {
 const uiTableheader11pxBold = {
            fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 700,
+           fontWeight: 400,
            fontSize: {
                       measure: 11,
                       unit: "Pixels",
