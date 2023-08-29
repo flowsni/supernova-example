@@ -1,4 +1,3 @@
-const token1 = "#ffffff";
 const primary100 = "#f1effe";
 const primary200 = "#bdb7ff";
 const primary300 = "#948aff";
@@ -69,9 +68,24 @@ const extraPink300 = "#da2185";
 const extraFrog100 = "#b4efba";
 const extraFrog200 = "#69ff78";
 const extraFrog300 = "#00ac11";
+const colorSurfaceColorSurface = neutral100;
+const colorBackgroundColorBackgroundBrandStandard = primary800;
+const colorBackgroundColorBackgroundWhite = neutralWhite;
+const colorBackgroundStateDangerColorBackgroundDangerStandard = statesDanger300;
+const colorBackgroundStateDangerColorBackgroundDangerWeak = statesDanger100;
+const colorBorderNeutralColorBorderNeutralDefault = neutral400;
+const colorBorderNeutralColorBorderNeutralHover = neutral600;
+const colorBorderNeutralColorBorderNeutralDisabled = neutral200;
+const colorBorderStateDangerColorBorderDanger = statesDanger300;
+const colorTextNeutralOnLightColorTextNeutralStrong = neutralBlack;
+const colorTextNeutralOnLightColorTextNeutralStandard = neutral900;
+const colorTextNeutralOnLightColorTextNeutralWeak = neutral700;
+const colorTextStateDangerColorTextDangerStandard = statesDanger300;
+const colorTextStateDangerColorTextDangerWeak = statesDanger200;
+const colorTextNeutralOnDarkColorTextInverseStrong = neutralWhite;
+const colorTextNeutralOnDarkColorTextInverseStandard = neutral100;
 
 export const Colors = {
-    token1,
     primary100,
     primary200,
     primary300,
@@ -142,4 +156,31 @@ export const Colors = {
     extraFrog100,
     extraFrog200,
     extraFrog300,
+  /** Use for surface */
+    colorSurfaceColorSurface,
+  /** Primary color background */
+    colorBackgroundColorBackgroundBrandStandard,
+  /** White color background */
+    colorBackgroundColorBackgroundWhite,
+    colorBackgroundStateDangerColorBackgroundDangerStandard,
+    colorBackgroundStateDangerColorBackgroundDangerWeak,
+  /** Use to visually group or separate UI elements, such as flat cards or side panel dividers. */
+    colorBorderNeutralColorBorderNeutralDefault,
+  /** Use for neutral borders on hover (such as flat cards) */
+    colorBorderNeutralColorBorderNeutralHover,
+  /** Use for disabled element borders */
+    colorBorderNeutralColorBorderNeutralDisabled,
+    colorBorderStateDangerColorBorderDanger,
+  /** Use for: - Item titles - Headers, subhheaders - Input fields text - Letters in password */
+    colorTextNeutralOnLightColorTextNeutralStrong,
+  /** Use for: - Paragraph text - Secondary text */
+    colorTextNeutralOnLightColorTextNeutralStandard,
+  /** Use for: - Tertiary text - Input labels - Placeholder text - Image captions */
+    colorTextNeutralOnLightColorTextNeutralWeak,
+    colorTextStateDangerColorTextDangerStandard,
+    colorTextStateDangerColorTextDangerWeak,
+  /** Use for catchy text on colored backgrounds */
+    colorTextNeutralOnDarkColorTextInverseStrong,
+  /** Use for: - Secondary text - Legal text - Help text  on colored backgrounds */
+    colorTextNeutralOnDarkColorTextInverseStandard,
 }
