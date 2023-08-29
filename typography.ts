@@ -3,17 +3,10 @@ import { Measures } from './measures';
 const headingsH124px = {
            fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 400,
-           fontSize: {
-                      measure: 24,
-                      unit: "Pixels",
-                      css: "24px"
-                     },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
+           fontWeight: 700,
+           fontSize: Measures.fontSizingFontSizeFontsize5,
+           lineHeight: Measures.lineHeightLineHeightLineheights0,
+           letterSpacing: Measures.letterSpacingLetterSpacingLetterspacing0,
            textIndent: {
                         measure: 0,
                         unit: "Pixels",
@@ -24,21 +17,9 @@ const bodyL18pxRegular = {
            fontFamily: "Heebo",
            fontStyle: "normal",
            fontWeight: 400,
-           fontSize: {
-                      measure: 18,
-                      unit: "Pixels",
-                      css: "18px"
-                     },
-           lineHeight: {
-                          measure: 26,
-                          unit: "Pixels",
-                          css: "26px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
+           fontSize: Measures.fontSizingFontSizeFontsize4,
+           lineHeight: Measures.lineHeightLineHeightLineheights1,
+           letterSpacing: Measures.letterSpacingLetterSpacingLetterspacing0,
            textIndent: {
                         measure: 0,
                         unit: "Pixels",
@@ -48,22 +29,10 @@ const bodyL18pxRegular = {
 const bodyL18pxBold = {
            fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 400,
-           fontSize: {
-                      measure: 18,
-                      unit: "Pixels",
-                      css: "18px"
-                     },
-           lineHeight: {
-                          measure: 26,
-                          unit: "Pixels",
-                          css: "26px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
+           fontWeight: 700,
+           fontSize: Measures.fontSizingFontSizeFontsize4,
+           lineHeight: Measures.lineHeightLineHeightLineheights1,
+           letterSpacing: Measures.letterSpacingLetterSpacingLetterspacing0,
            textIndent: {
                         measure: 0,
                         unit: "Pixels",
@@ -74,21 +43,9 @@ const bodyM16pxRegular = {
            fontFamily: "Heebo",
            fontStyle: "normal",
            fontWeight: 400,
-           fontSize: {
-                      measure: 16,
-                      unit: "Pixels",
-                      css: "16px"
-                     },
-           lineHeight: {
-                          measure: 24,
-                          unit: "Pixels",
-                          css: "24px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
+           fontSize: Measures.fontSizingFontSizeFontsize3,
+           lineHeight: Measures.lineHeightLineHeightLineheights2,
+           letterSpacing: Measures.letterSpacingLetterSpacingLetterspacing0,
            textIndent: {
                         measure: 0,
                         unit: "Pixels",
@@ -98,22 +55,10 @@ const bodyM16pxRegular = {
 const bodyM16pxBold = {
            fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 400,
-           fontSize: {
-                      measure: 16,
-                      unit: "Pixels",
-                      css: "16px"
-                     },
-           lineHeight: {
-                          measure: 24,
-                          unit: "Pixels",
-                          css: "24px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
+           fontWeight: 700,
+           fontSize: Measures.fontSizingFontSizeFontsize3,
+           lineHeight: Measures.lineHeightLineHeightLineheights2,
+           letterSpacing: Measures.letterSpacingLetterSpacingLetterspacing0,
            textIndent: {
                         measure: 0,
                         unit: "Pixels",
@@ -124,21 +69,9 @@ const bodyS14pxRegular = {
            fontFamily: "Heebo",
            fontStyle: "normal",
            fontWeight: 400,
-           fontSize: {
-                      measure: 14,
-                      unit: "Pixels",
-                      css: "14px"
-                     },
-           lineHeight: {
-                          measure: 22,
-                          unit: "Pixels",
-                          css: "22px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
+           fontSize: Measures.fontSizingFontSizeFontsize2,
+           lineHeight: Measures.lineHeightLineHeightLineheights3,
+           letterSpacing: Measures.letterSpacingLetterSpacingLetterspacing0,
            textIndent: {
                         measure: 0,
                         unit: "Pixels",
@@ -148,22 +81,10 @@ const bodyS14pxRegular = {
 const bodyS14pxBold = {
            fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 400,
-           fontSize: {
-                      measure: 14,
-                      unit: "Pixels",
-                      css: "14px"
-                     },
-           lineHeight: {
-                          measure: 22,
-                          unit: "Pixels",
-                          css: "22px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
+           fontWeight: 700,
+           fontSize: Measures.fontSizingFontSizeFontsize2,
+           lineHeight: Measures.lineHeightLineHeightLineheights3,
+           letterSpacing: Measures.letterSpacingLetterSpacingLetterspacing0,
            textIndent: {
                         measure: 0,
                         unit: "Pixels",
@@ -174,21 +95,9 @@ const bodyXs12pxRegular = {
            fontFamily: "Heebo",
            fontStyle: "normal",
            fontWeight: 400,
-           fontSize: {
-                      measure: 12,
-                      unit: "Pixels",
-                      css: "12px"
-                     },
-           lineHeight: {
-                          measure: 20,
-                          unit: "Pixels",
-                          css: "20px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
+           fontSize: Measures.fontSizingFontSizeFontsize1,
+           lineHeight: Measures.lineHeightLineHeightLineheights4,
+           letterSpacing: Measures.letterSpacingLetterSpacingLetterspacing0,
            textIndent: {
                         measure: 0,
                         unit: "Pixels",
@@ -198,22 +107,10 @@ const bodyXs12pxRegular = {
 const bodyXs12pxBold = {
            fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 400,
-           fontSize: {
-                      measure: 12,
-                      unit: "Pixels",
-                      css: "12px"
-                     },
-           lineHeight: {
-                          measure: 20,
-                          unit: "Pixels",
-                          css: "20px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
+           fontWeight: 700,
+           fontSize: Measures.fontSizingFontSizeFontsize1,
+           lineHeight: Measures.lineHeightLineHeightLineheights4,
+           letterSpacing: Measures.letterSpacingLetterSpacingLetterspacing0,
            textIndent: {
                         measure: 0,
                         unit: "Pixels",
@@ -224,16 +121,9 @@ const uiTableheader11pxRegular = {
            fontFamily: "Heebo",
            fontStyle: "normal",
            fontWeight: 400,
-           fontSize: {
-                      measure: 11,
-                      unit: "Pixels",
-                      css: "11px"
-                     },
-           letterSpacing: {
-                             measure: 8,
-                             unit: "Percent",
-                             css: "8%"
-                            },
+           fontSize: Measures.fontSizingFontSizeFontsize0,
+           lineHeight: Measures.lineHeightLineHeightLineheights0,
+           letterSpacing: Measures.letterSpacingLetterSpacingLetterspacing1,
            textIndent: {
                         measure: 0,
                         unit: "Pixels",
@@ -243,17 +133,10 @@ const uiTableheader11pxRegular = {
 const uiTableheader11pxBold = {
            fontFamily: "Heebo",
            fontStyle: "normal",
-           fontWeight: 400,
-           fontSize: {
-                      measure: 11,
-                      unit: "Pixels",
-                      css: "11px"
-                     },
-           letterSpacing: {
-                             measure: 8,
-                             unit: "Percent",
-                             css: "8%"
-                            },
+           fontWeight: 700,
+           fontSize: Measures.fontSizingFontSizeFontsize0,
+           lineHeight: Measures.lineHeightLineHeightLineheights0,
+           letterSpacing: Measures.letterSpacingLetterSpacingLetterspacing1,
            textIndent: {
                         measure: 0,
                         unit: "Pixels",
